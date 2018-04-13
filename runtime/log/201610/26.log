@@ -1,0 +1,114 @@
+[ 2016-10-26T21:31:39+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] 2.com/ [运行时间：0.147743s][吞吐率：6.77req/s] [内存消耗：1,809.34kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Index.php 9 - 14
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'yunsu_doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => '',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=yunsu_doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\index\index.html [ array (
+  0 => 'linksList',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `links`  [ RunTime:0.000830s ]
+
+[ 2016-10-26T21:31:40+08:00 ] 127.0.0.1 127.0.0.1 GET /css/app.png
+[ log ] 2.com/css/app.png [运行时间：0.053809s][吞吐率：18.58req/s] [内存消耗：849.66kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'css',
+    1 => 'app.png',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-26T15:31:40+02:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] 2.com/favicon.ico [运行时间：0.033253s][吞吐率：30.07req/s] [内存消耗：561.40kb] [文件加载：18]
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+
+[ 2016-10-26T15:35:48+02:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] yunsudoc.com/favicon.ico [运行时间：0.044572s][吞吐率：22.44req/s] [内存消耗：561.83kb] [文件加载：18]
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+
+[ 2016-10-26T15:45:22+02:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] yunsudoc.com/favicon.ico [运行时间：0.083624s][吞吐率：11.96req/s] [内存消耗：561.45kb] [文件加载：18]
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+
+[ 2016-10-26T15:46:14+02:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] yunsudoc.com/favicon.ico [运行时间：0.081986s][吞吐率：12.20req/s] [内存消耗：561.45kb] [文件加载：18]
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+
+[ 2016-10-26T15:48:44+02:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] yunsudoc.com/favicon.ico [运行时间：0.131500s][吞吐率：7.60req/s] [内存消耗：561.45kb] [文件加载：18]
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+

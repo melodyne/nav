@@ -1,0 +1,1581 @@
+[ 2017-03-25T15:28:06+01:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] doc.com/favicon.ico [运行时间：0.451466s][吞吐率：2.22req/s] [内存消耗：562.03kb] [文件加载：18]
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+
+[ 2017-03-25T22:28:07+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] doc.com/ [运行时间：0.248748s][吞吐率：4.02req/s] [内存消耗：1,845.16kb] [文件加载：40]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Index.php 9 - 14
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'yunsu_doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => '',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+[ error ] [0]SQLSTATE[HY000] [1049] Unknown database 'yunsu_doc'[D:\xampp\htdocs\yunsuDoc\thinkphp\library\think\db\Connection.php:277]
+
+[ 2017-03-25T15:28:08+01:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] doc.com/favicon.ico [运行时间：0.008783s][吞吐率：113.85req/s] [内存消耗：561.63kb] [文件加载：18]
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+
+[ 2017-03-25T22:33:44+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] doc.com/ [运行时间：0.046504s][吞吐率：21.50req/s] [内存消耗：1,846.02kb] [文件加载：39]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Index.php 9 - 14
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'yunsu_doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => '',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=yunsu_doc;host=localhost;port=3306;charset=utf8
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+[ error ] [42S02]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yunsu_doc.links' doesn't exist[D:\xampp\htdocs\yunsuDoc\thinkphp\library\think\db\connector\Mysql.php:58]
+
+[ 2017-03-25T22:35:44+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] doc.com/ [运行时间：0.043221s][吞吐率：23.14req/s] [内存消耗：1,846.01kb] [文件加载：39]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Index.php 9 - 14
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'yunsu_doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => '',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=yunsu_doc;host=localhost;port=3306;charset=utf8
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+[ error ] [42S02]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yunsu_doc.links' doesn't exist[D:\xampp\htdocs\yunsuDoc\thinkphp\library\think\db\connector\Mysql.php:58]
+
+[ 2017-03-25T22:35:47+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] doc.com/ [运行时间：0.051401s][吞吐率：19.45req/s] [内存消耗：1,846.01kb] [文件加载：39]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Index.php 9 - 14
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'yunsu_doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => '',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=yunsu_doc;host=localhost;port=3306;charset=utf8
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+[ error ] [42S02]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yunsu_doc.links' doesn't exist[D:\xampp\htdocs\yunsuDoc\thinkphp\library\think\db\connector\Mysql.php:58]
+
+[ 2017-03-25T22:36:17+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] doc.com/ [运行时间：0.134326s][吞吐率：7.44req/s] [内存消耗：1,821.69kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Index.php 9 - 14
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'yunsu_doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => '',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=yunsu_doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\index\index.html [ array (
+  0 => 'linksList',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `links`  [ RunTime:0.000538s ]
+
+[ 2017-03-25T22:36:17+08:00 ] 127.0.0.1 127.0.0.1 GET /css/app.png
+[ log ] doc.com/css/app.png [运行时间：0.029676s][吞吐率：33.70req/s] [内存消耗：849.52kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'css',
+    1 => 'app.png',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2017-03-25T22:36:50+08:00 ] 127.0.0.1 127.0.0.1 GET /js/check.js
+[ log ] doc.com/js/check.js [运行时间：0.016082s][吞吐率：62.18req/s] [内存消耗：849.56kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'check.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2017-03-25T22:36:50+08:00 ] 127.0.0.1 127.0.0.1 GET /js/set.js
+[ log ] doc.com/js/set.js [运行时间：0.018269s][吞吐率：54.74req/s] [内存消耗：849.48kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'set.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2017-03-25T22:37:03+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show?mc=1
+[ log ] doc.com/home/task/show?mc=1 [运行时间：0.065527s][吞吐率：15.26req/s] [内存消耗：1,153.05kb] [文件加载：33]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 10 - 50
+}
+
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+[ error ] [8]未定义变量 : date[D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php:43]
+
+[ 2017-03-25T22:39:29+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show?mc=1
+[ log ] doc.com/home/task/show?mc=1 [运行时间：0.021896s][吞吐率：45.67req/s] [内存消耗：1,153.02kb] [文件加载：33]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 10 - 50
+}
+
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+[ error ] [8]未定义变量 : date[D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php:43]
+
+[ 2017-03-25T22:43:59+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show?mc=1
+[ log ] doc.com/home/task/show?mc=1 [运行时间：0.064186s][吞吐率：15.58req/s] [内存消耗：1,056.91kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 10 - 50
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'year',
+  1 => 'month',
+  2 => 'today',
+  3 => 'openday',
+  4 => 'dayarr',
+  5 => 'todayTasks',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2017-03-25T22:44:16+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/add?mc=3
+[ log ] doc.com/home/task/add?mc=3 [运行时间：0.061286s][吞吐率：16.32req/s] [内存消耗：1,044.20kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'add',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 52 - 69
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\user\login.html [ array (
+  0 => 'loginInfo',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2017-03-25T22:44:22+08:00 ] 127.0.0.1 127.0.0.1 GET /home/user/login?mc=6
+[ log ] doc.com/home/user/login?mc=6 [运行时间：0.042975s][吞吐率：23.27req/s] [内存消耗：1,057.44kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ RUN ] /**
+     * 登录
+     * @return [type] [description]
+     */
+Method [ <user> public method login ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\User.php 15 - 138
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\user\login.html [ array (
+  0 => 'loginInfo',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2017-03-25T22:44:26+08:00 ] 127.0.0.1 127.0.0.1 GET /home/user/login?mc=6
+[ log ] doc.com/home/user/login?mc=6 [运行时间：0.019603s][吞吐率：51.01req/s] [内存消耗：1,057.41kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ RUN ] /**
+     * 登录
+     * @return [type] [description]
+     */
+Method [ <user> public method login ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\User.php 15 - 138
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\user\login.html [ array (
+  0 => 'loginInfo',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2017-03-25T22:44:28+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show?mc=1
+[ log ] doc.com/home/task/show?mc=1 [运行时间：0.021243s][吞吐率：47.07req/s] [内存消耗：1,056.94kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 10 - 50
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'year',
+  1 => 'month',
+  2 => 'today',
+  3 => 'openday',
+  4 => 'dayarr',
+  5 => 'todayTasks',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2017-03-25T22:44:30+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/add?mc=3
+[ log ] doc.com/home/task/add?mc=3 [运行时间：0.017730s][吞吐率：56.40req/s] [内存消耗：1,044.03kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'add',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 52 - 69
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\user\login.html [ array (
+  0 => 'loginInfo',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2017-03-25T22:44:33+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show?mc=1
+[ log ] doc.com/home/task/show?mc=1 [运行时间：0.017569s][吞吐率：56.92req/s] [内存消耗：1,056.88kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 10 - 50
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'year',
+  1 => 'month',
+  2 => 'today',
+  3 => 'openday',
+  4 => 'dayarr',
+  5 => 'todayTasks',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2017-03-25T22:45:05+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show?mc=1&y=17&m=03&d=18
+[ log ] doc.com/home/task/show?mc=1&y=17&m=03&d=18 [运行时间：0.065866s][吞吐率：15.18req/s] [内存消耗：1,942.07kb] [文件加载：41]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 10 - 50
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'yunsu_doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => '',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=yunsu_doc;host=localhost;port=3306;charset=utf8
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `authors`  [ RunTime:0.000326s ]
+[ error ] [42S02]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yunsu_doc.tasks' doesn't exist[D:\xampp\htdocs\yunsuDoc\thinkphp\library\think\db\connector\Mysql.php:58]
+
+[ 2017-03-25T22:50:04+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php
+[ log ] doc.com/index.php [运行时间：0.052569s][吞吐率：19.02req/s] [内存消耗：1,821.64kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Index.php 9 - 14
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'yunsu_doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => '',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=yunsu_doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\index\index.html [ array (
+  0 => 'linksList',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `links`  [ RunTime:0.000364s ]
+
+[ 2017-03-25T22:50:04+08:00 ] 127.0.0.1 127.0.0.1 GET /css/app.png
+[ log ] doc.com/css/app.png [运行时间：0.015737s][吞吐率：63.55req/s] [内存消耗：849.59kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'css',
+    1 => 'app.png',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2017-03-25T22:52:03+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show?mc=1
+[ log ] doc.com/home/task/show?mc=1 [运行时间：0.018149s][吞吐率：55.10req/s] [内存消耗：1,056.90kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 10 - 50
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'year',
+  1 => 'month',
+  2 => 'today',
+  3 => 'openday',
+  4 => 'dayarr',
+  5 => 'todayTasks',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2017-03-25T15:57:36+01:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] doc.com/favicon.ico [运行时间：0.009594s][吞吐率：104.23req/s] [内存消耗：561.66kb] [文件加载：18]
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+
+[ 2017-03-25T22:57:57+08:00 ] 127.0.0.1 127.0.0.1 GET /home/project
+[ log ] doc.com/home/project [运行时间：0.067445s][吞吐率：14.83req/s] [内存消耗：1,263.38kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'project',
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Project.php 11 - 13
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\project\index.html [ array (
+) ]
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+[ error ] [8]未定义变量 : linksList[D:\xampp\htdocs\yunsuDoc\runtime\temp\39aa32bec80d295e2a6d01f346810201.php:57]
+
+[ 2017-03-25T22:58:21+08:00 ] 127.0.0.1 127.0.0.1 GET /home/project
+[ log ] doc.com/home/project [运行时间：0.026527s][吞吐率：37.70req/s] [内存消耗：1,122.70kb] [文件加载：35]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'project',
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Project.php 11 - 13
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\project\index.html [ array (
+) ]
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+[ error ] [8]未定义变量 : linksList[D:\xampp\htdocs\yunsuDoc\runtime\temp\39aa32bec80d295e2a6d01f346810201.php:57]
+
+[ 2017-03-25T22:58:44+08:00 ] 127.0.0.1 127.0.0.1 GET /home/projec
+[ log ] doc.com/home/projec [运行时间：0.014612s][吞吐率：68.44req/s] [内存消耗：850.05kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'projec',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2017-03-25T22:58:52+08:00 ] 127.0.0.1 127.0.0.1 GET /home/project
+[ log ] doc.com/home/project [运行时间：0.023817s][吞吐率：41.99req/s] [内存消耗：1,122.76kb] [文件加载：35]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'project',
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Project.php 11 - 13
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\project\index.html [ array (
+) ]
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+[ error ] [8]未定义变量 : linksList[D:\xampp\htdocs\yunsuDoc\runtime\temp\39aa32bec80d295e2a6d01f346810201.php:57]
+
+[ 2017-03-25T22:59:38+08:00 ] 127.0.0.1 127.0.0.1 GET /home/project
+[ log ] doc.com/home/project [运行时间：0.016122s][吞吐率：62.03req/s] [内存消耗：996.66kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'project',
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Project.php 11 - 14
+}
+
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2017-03-25T23:00:07+08:00 ] 127.0.0.1 127.0.0.1 GET /home/project
+[ log ] doc.com/home/project [运行时间：0.016632s][吞吐率：60.12req/s] [内存消耗：1,122.70kb] [文件加载：35]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'project',
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Project.php 11 - 13
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\project\index.html [ array (
+) ]
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+[ error ] [8]未定义变量 : linksList[D:\xampp\htdocs\yunsuDoc\runtime\temp\39aa32bec80d295e2a6d01f346810201.php:57]
+
+[ 2017-03-25T23:00:34+08:00 ] 127.0.0.1 127.0.0.1 GET /home/project
+[ log ] doc.com/home/project [运行时间：0.016862s][吞吐率：59.30req/s] [内存消耗：1,022.06kb] [文件加载：26]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'project',
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Project.php 11 - 13
+}
+
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2017-03-25T23:00:34+08:00 ] 127.0.0.1 127.0.0.1 GET /home/project
+[ log ] doc.com/home/project [运行时间：0.016009s][吞吐率：62.46req/s] [内存消耗：1,022.06kb] [文件加载：26]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'project',
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Project.php 11 - 13
+}
+
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2017-03-25T23:00:36+08:00 ] 127.0.0.1 127.0.0.1 GET /home/project
+[ log ] doc.com/home/project [运行时间：0.018306s][吞吐率：54.63req/s] [内存消耗：1,022.06kb] [文件加载：26]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'project',
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Project.php 11 - 13
+}
+
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2017-03-25T23:00:46+08:00 ] 127.0.0.1 127.0.0.1 GET /home/project
+[ log ] doc.com/home/project [运行时间：0.022880s][吞吐率：43.71req/s] [内存消耗：1,112.32kb] [文件加载：32]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'project',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2017-03-25T23:00:58+08:00 ] 127.0.0.1 127.0.0.1 GET /home/project
+[ log ] doc.com/home/project [运行时间：0.017207s][吞吐率：58.12req/s] [内存消耗：1,022.06kb] [文件加载：26]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'project',
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Project.php 10 - 12
+}
+
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2017-03-25T23:02:32+08:00 ] 127.0.0.1 127.0.0.1 GET /home/project
+[ log ] doc.com/home/project [运行时间：0.021493s][吞吐率：46.53req/s] [内存消耗：1,122.75kb] [文件加载：35]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'project',
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Project.php 10 - 12
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\project\index.html [ array (
+) ]
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+[ error ] [8]未定义变量 : linksList[D:\xampp\htdocs\yunsuDoc\runtime\temp\39aa32bec80d295e2a6d01f346810201.php:57]
+
+[ 2017-03-25T23:02:34+08:00 ] 127.0.0.1 127.0.0.1 GET /home/project
+[ log ] doc.com/home/project [运行时间：0.023158s][吞吐率：43.18req/s] [内存消耗：1,122.75kb] [文件加载：35]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'project',
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Project.php 10 - 12
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\project\index.html [ array (
+) ]
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+[ error ] [8]未定义变量 : linksList[D:\xampp\htdocs\yunsuDoc\runtime\temp\39aa32bec80d295e2a6d01f346810201.php:57]
+
+[ 2017-03-25T23:03:16+08:00 ] 127.0.0.1 127.0.0.1 GET /home/project
+[ log ] doc.com/home/project [运行时间：0.021804s][吞吐率：45.86req/s] [内存消耗：1,122.66kb] [文件加载：35]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'project',
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Project.php 9 - 11
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\project\index.html [ array (
+) ]
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+[ error ] [8]未定义变量 : linksList[D:\xampp\htdocs\yunsuDoc\runtime\temp\39aa32bec80d295e2a6d01f346810201.php:57]
+
+[ 2017-03-25T23:04:31+08:00 ] 127.0.0.1 127.0.0.1 GET /home/project
+[ log ] doc.com/home/project [运行时间：0.016626s][吞吐率：60.15req/s] [内存消耗：1,122.73kb] [文件加载：35]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'project',
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Project.php 9 - 11
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\project\index.html [ array (
+) ]
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+[ error ] [8]未定义变量 : linksList[D:\xampp\htdocs\yunsuDoc\runtime\temp\39aa32bec80d295e2a6d01f346810201.php:57]
+
+[ 2017-03-25T23:06:42+08:00 ] 127.0.0.1 127.0.0.1 GET /home/project
+[ log ] doc.com/home/project [运行时间：0.025218s][吞吐率：39.65req/s] [内存消耗：1,162.74kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'project',
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Project.php 9 - 11
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\project\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2017-03-25T23:09:07+08:00 ] 127.0.0.1 127.0.0.1 GET /home/project
+[ log ] doc.com/home/project [运行时间：0.019153s][吞吐率：52.21req/s] [内存消耗：1,024.67kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'project',
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Project.php 9 - 11
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\project\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2017-03-25T23:09:46+08:00 ] 127.0.0.1 127.0.0.1 GET /home/project
+[ log ] doc.com/home/project [运行时间：0.024431s][吞吐率：40.93req/s] [内存消耗：1,163.26kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'project',
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Project.php 9 - 11
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\project\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2017-03-25T23:09:49+08:00 ] 127.0.0.1 127.0.0.1 GET /home/project
+[ log ] doc.com/home/project [运行时间：0.017524s][吞吐率：57.06req/s] [内存消耗：1,024.67kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'project',
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Project.php 9 - 11
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\project\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2017-03-25T23:09:54+08:00 ] 127.0.0.1 127.0.0.1 GET /home/project
+[ log ] doc.com/home/project [运行时间：0.020287s][吞吐率：49.29req/s] [内存消耗：1,024.67kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'project',
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Project.php 9 - 11
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\project\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2017-03-25T23:10:09+08:00 ] 127.0.0.1 127.0.0.1 GET /home/project
+[ log ] doc.com/home/project [运行时间：0.015043s][吞吐率：66.48req/s] [内存消耗：1,024.67kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'project',
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Project.php 9 - 11
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\project\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2017-03-25T23:10:26+08:00 ] 127.0.0.1 127.0.0.1 GET /home/project/leftnav
+[ log ] doc.com/home/project/leftnav [运行时间：0.017269s][吞吐率：57.91req/s] [内存消耗：1,163.31kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'project',
+    2 => 'leftnav',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method leftnav ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Project.php 13 - 15
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\project\leftnav.html [ array (
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2017-03-25T23:10:39+08:00 ] 127.0.0.1 127.0.0.1 GET /example/html/frame_b.html
+[ log ] doc.com/example/html/frame_b.html [运行时间：0.018043s][吞吐率：55.42req/s] [内存消耗：849.56kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'example',
+    1 => 'html',
+    2 => 'frame_b',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2017-03-25T23:10:47+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php
+[ log ] doc.com/index.php [运行时间：0.041231s][吞吐率：24.25req/s] [内存消耗：1,821.65kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Index.php 9 - 14
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'yunsu_doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => '',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=yunsu_doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\index\index.html [ array (
+  0 => 'linksList',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `links`  [ RunTime:0.000337s ]
+
+[ 2017-03-25T23:10:47+08:00 ] 127.0.0.1 127.0.0.1 GET /css/app.png
+[ log ] doc.com/css/app.png [运行时间：0.013955s][吞吐率：71.66req/s] [内存消耗：849.54kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'css',
+    1 => 'app.png',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2017-03-25T23:10:59+08:00 ] 127.0.0.1 127.0.0.1 GET /home/project
+[ log ] doc.com/home/project [运行时间：0.017380s][吞吐率：57.54req/s] [内存消耗：1,024.67kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'project',
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Project.php 9 - 11
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\project\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2017-03-25T23:11:01+08:00 ] 127.0.0.1 127.0.0.1 GET /home/project
+[ log ] doc.com/home/project [运行时间：0.017129s][吞吐率：58.38req/s] [内存消耗：1,024.67kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'project',
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Project.php 9 - 11
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\project\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2017-03-25T23:11:32+08:00 ] 127.0.0.1 127.0.0.1 GET /home/project
+[ log ] doc.com/home/project [运行时间：0.017823s][吞吐率：56.11req/s] [内存消耗：1,024.67kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'project',
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Project.php 9 - 11
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\project\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2017-03-25T16:12:01+01:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] doc.com/favicon.ico [运行时间：0.009727s][吞吐率：102.81req/s] [内存消耗：561.59kb] [文件加载：18]
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+
+[ 2017-03-25T23:12:06+08:00 ] 127.0.0.1 127.0.0.1 GET /home/project/leftnav
+[ log ] doc.com/home/project/leftnav [运行时间：0.015787s][吞吐率：63.34req/s] [内存消耗：1,024.79kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'project',
+    2 => 'leftnav',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method leftnav ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Project.php 13 - 15
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\project\leftnav.html [ array (
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2017-03-25T23:12:36+08:00 ] 127.0.0.1 127.0.0.1 GET /home/project
+[ log ] doc.com/home/project [运行时间：0.024981s][吞吐率：40.03req/s] [内存消耗：1,163.37kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'project',
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Project.php 9 - 11
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\project\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2017-03-25T23:12:39+08:00 ] 127.0.0.1 127.0.0.1 GET /home/project
+[ log ] doc.com/home/project [运行时间：0.017063s][吞吐率：58.61req/s] [内存消耗：1,024.68kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'project',
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Project.php 9 - 11
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\project\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2017-03-25T23:12:46+08:00 ] 127.0.0.1 127.0.0.1 GET /home/project/leftnav
+[ log ] doc.com/home/project/leftnav [运行时间：0.019888s][吞吐率：50.28req/s] [内存消耗：1,024.81kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'project',
+    2 => 'leftnav',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method leftnav ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Project.php 13 - 15
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\project\leftnav.html [ array (
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2017-03-25T23:13:44+08:00 ] 127.0.0.1 127.0.0.1 GET /home/project/leftnav
+[ log ] doc.com/home/project/leftnav [运行时间：0.017920s][吞吐率：55.80req/s] [内存消耗：1,024.81kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'project',
+    2 => 'leftnav',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method leftnav ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Project.php 13 - 15
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\project\leftnav.html [ array (
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2017-03-25T23:14:23+08:00 ] 127.0.0.1 127.0.0.1 GET /home/project
+[ log ] doc.com/home/project [运行时间：0.019327s][吞吐率：51.74req/s] [内存消耗：1,024.68kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'project',
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Project.php 9 - 11
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\project\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2017-03-25T23:16:47+08:00 ] 127.0.0.1 127.0.0.1 GET /home/project
+[ log ] doc.com/home/project [运行时间：0.025059s][吞吐率：39.91req/s] [内存消耗：1,163.27kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'project',
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Project.php 9 - 11
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\project\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2017-03-25T23:16:49+08:00 ] 127.0.0.1 127.0.0.1 GET /home/project
+[ log ] doc.com/home/project [运行时间：0.018336s][吞吐率：54.54req/s] [内存消耗：1,024.67kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'project',
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Project.php 9 - 11
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\project\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2017-03-25T23:16:51+08:00 ] 127.0.0.1 127.0.0.1 GET /home/project
+[ log ] doc.com/home/project [运行时间：0.018116s][吞吐率：55.20req/s] [内存消耗：1,024.67kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'project',
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Project.php 9 - 11
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\project\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2017-03-25T23:17:08+08:00 ] 127.0.0.1 127.0.0.1 GET /home/project/index.php
+[ log ] doc.com/home/project/index.php [运行时间：0.021832s][吞吐率：45.80req/s] [内存消耗：1,113.10kb] [文件加载：32]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'project',
+    2 => 'index.php',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2017-03-25T23:17:15+08:00 ] 127.0.0.1 127.0.0.1 GET /home/project/index.html
+[ log ] doc.com/home/project/index.html [运行时间：0.016243s][吞吐率：61.57req/s] [内存消耗：1,024.73kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'project',
+    2 => 'index',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Project.php 9 - 11
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\project\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2017-03-25T23:17:23+08:00 ] 127.0.0.1 127.0.0.1 GET /home/project/index.html
+[ log ] doc.com/home/project/index.html [运行时间：0.017528s][吞吐率：57.05req/s] [内存消耗：1,024.78kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'project',
+    2 => 'index',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Project.php 9 - 11
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\project\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2017-03-25T23:17:25+08:00 ] 127.0.0.1 127.0.0.1 GET /home/project/index.html
+[ log ] doc.com/home/project/index.html [运行时间：0.018620s][吞吐率：53.71req/s] [内存消耗：1,024.78kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'project',
+    2 => 'index',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Project.php 9 - 11
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\project\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2017-03-25T23:19:43+08:00 ] 127.0.0.1 127.0.0.1 GET /home/project/index.html
+[ log ] doc.com/home/project/index.html [运行时间：0.023801s][吞吐率：42.01req/s] [内存消耗：1,163.41kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'project',
+    2 => 'index',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Project.php 9 - 11
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\project\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+

@@ -1,0 +1,1378 @@
+[ 2016-10-19T00:08:40+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/add?mc=3
+[ log ] yunsudoc.com/home/task/add?mc=3 [运行时间：0.109530s][吞吐率：9.13req/s] [内存消耗：1,963.32kb] [文件加载：39]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'add',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 29 - 46
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'yunsu_doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => '',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=yunsu_doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\add.html [ array (
+  0 => 'taskid',
+  1 => 'taskList',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `tasks` WHERE  `year` = '2016'  AND `month` = '10'  AND `day` = '19'  AND `athname` = '陈万洲' LIMIT 1       [ RunTime:0.001062s ]
+
+[ 2016-10-19T00:08:43+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/add?mc=3
+[ log ] yunsudoc.com/home/task/add?mc=3 [运行时间：0.096793s][吞吐率：10.33req/s] [内存消耗：1,814.43kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'add',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 29 - 46
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'yunsu_doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => '',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=yunsu_doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\add.html [ array (
+  0 => 'taskid',
+  1 => 'taskList',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `tasks` WHERE  `year` = '2016'  AND `month` = '10'  AND `day` = '19'  AND `athname` = '陈万洲' LIMIT 1       [ RunTime:0.000927s ]
+
+[ 2016-10-19T00:09:23+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/add?mc=3
+[ log ] yunsudoc.com/home/task/add?mc=3 [运行时间：0.094970s][吞吐率：10.53req/s] [内存消耗：1,814.43kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'add',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 29 - 46
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'yunsu_doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => '',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=yunsu_doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\add.html [ array (
+  0 => 'taskid',
+  1 => 'taskList',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `tasks` WHERE  `year` = '2016'  AND `month` = '10'  AND `day` = '19'  AND `athname` = '陈万洲' LIMIT 1       [ RunTime:0.000823s ]
+
+[ 2016-10-19T00:09:26+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/add?mc=3
+[ log ] yunsudoc.com/home/task/add?mc=3 [运行时间：0.091945s][吞吐率：10.88req/s] [内存消耗：1,814.43kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'add',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 29 - 46
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'yunsu_doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => '',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=yunsu_doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\add.html [ array (
+  0 => 'taskid',
+  1 => 'taskList',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `tasks` WHERE  `year` = '2016'  AND `month` = '10'  AND `day` = '19'  AND `athname` = '陈万洲' LIMIT 1       [ RunTime:0.000822s ]
+
+[ 2016-10-19T00:09:47+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/add?mc=3
+[ log ] yunsudoc.com/home/task/add?mc=3 [运行时间：0.094674s][吞吐率：10.56req/s] [内存消耗：1,814.43kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'add',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 29 - 46
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'yunsu_doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => '',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=yunsu_doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\add.html [ array (
+  0 => 'taskid',
+  1 => 'taskList',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `tasks` WHERE  `year` = '2016'  AND `month` = '10'  AND `day` = '19'  AND `athname` = '陈万洲' LIMIT 1       [ RunTime:0.000862s ]
+
+[ 2016-10-19T17:29:04+02:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] yunsudoc.com/favicon.ico [运行时间：0.060192s][吞吐率：16.61req/s] [内存消耗：562.01kb] [文件加载：18]
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+
+[ 2016-10-19T23:29:09+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show?mc=1
+[ log ] yunsudoc.com/home/task/show?mc=1 [运行时间：0.067927s][吞吐率：14.72req/s] [内存消耗：1,046.73kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-19T17:29:10+02:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] yunsudoc.com/favicon.ico [运行时间：0.029551s][吞吐率：33.84req/s] [内存消耗：561.62kb] [文件加载：18]
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+
+[ 2016-10-19T23:31:23+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/add?mc=3
+[ log ] yunsudoc.com/home/task/add?mc=3 [运行时间：0.059358s][吞吐率：16.85req/s] [内存消耗：1,034.83kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'add',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 29 - 46
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\user\login.html [ array (
+  0 => 'loginInfo',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-19T23:31:36+08:00 ] 127.0.0.1 127.0.0.1 POST /api/user/login
+[ log ] yunsudoc.com/api/user/login [运行时间：0.097387s][吞吐率：10.27req/s] [内存消耗：1,823.03kb] [文件加载：36]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method login ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\api\controller\User.php 11 - 39
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'yunsu_doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => '',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=yunsu_doc;host=localhost;port=3306;charset=utf8
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `authors` WHERE  `authname` = '陈万洲'  AND `loginpwd` = '123456' LIMIT 1     [ RunTime:0.001033s ]
+
+[ 2016-10-19T23:31:38+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/add?mc=3
+[ log ] yunsudoc.com/home/task/add?mc=3 [运行时间：0.082346s][吞吐率：12.14req/s] [内存消耗：1,814.52kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'add',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 29 - 46
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'yunsu_doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => '',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=yunsu_doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\add.html [ array (
+  0 => 'taskid',
+  1 => 'taskList',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `tasks` WHERE  `year` = '2016'  AND `month` = '10'  AND `day` = '19'  AND `athname` = '陈万洲' LIMIT 1       [ RunTime:0.001007s ]
+
+[ 2016-10-19T23:33:40+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/add?mc=3
+[ log ] yunsudoc.com/home/task/add?mc=3 [运行时间：0.094969s][吞吐率：10.53req/s] [内存消耗：1,814.43kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'add',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 29 - 46
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'yunsu_doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => '',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=yunsu_doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\add.html [ array (
+  0 => 'taskid',
+  1 => 'taskList',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `tasks` WHERE  `year` = '2016'  AND `month` = '10'  AND `day` = '19'  AND `athname` = '陈万洲' LIMIT 1       [ RunTime:0.000902s ]
+
+[ 2016-10-19T23:33:50+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show?mc=1
+[ log ] yunsudoc.com/home/task/show?mc=1 [运行时间：0.058647s][吞吐率：17.05req/s] [内存消耗：1,046.73kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-19T23:35:40+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show?mc=1
+[ log ] yunsudoc.com/home/task/show?mc=1 [运行时间：0.048074s][吞吐率：20.80req/s] [内存消耗：1,046.66kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-19T23:35:42+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show?mc=1
+[ log ] yunsudoc.com/home/task/show?mc=1 [运行时间：0.045822s][吞吐率：21.82req/s] [内存消耗：1,046.73kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-19T23:43:06+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show?mc=1
+[ log ] yunsudoc.com/home/task/show?mc=1 [运行时间：0.055928s][吞吐率：17.88req/s] [内存消耗：1,046.64kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-19T23:43:08+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/add?mc=3
+[ log ] yunsudoc.com/home/task/add?mc=3 [运行时间：0.116187s][吞吐率：8.61req/s] [内存消耗：1,958.99kb] [文件加载：39]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'add',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 29 - 46
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'yunsu_doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => '',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=yunsu_doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\add.html [ array (
+  0 => 'taskid',
+  1 => 'taskList',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `tasks` WHERE  `year` = '2016'  AND `month` = '10'  AND `day` = '19'  AND `athname` = '陈万洲' LIMIT 1       [ RunTime:0.000921s ]
+
+[ 2016-10-19T23:44:01+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/add?mc=3
+[ log ] yunsudoc.com/home/task/add?mc=3 [运行时间：0.095356s][吞吐率：10.49req/s] [内存消耗：1,814.42kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'add',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 29 - 46
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'yunsu_doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => '',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=yunsu_doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\add.html [ array (
+  0 => 'taskid',
+  1 => 'taskList',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `tasks` WHERE  `year` = '2016'  AND `month` = '10'  AND `day` = '19'  AND `athname` = '陈万洲' LIMIT 1       [ RunTime:0.000782s ]
+
+[ 2016-10-19T23:44:04+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/add?mc=3
+[ log ] yunsudoc.com/home/task/add?mc=3 [运行时间：0.090821s][吞吐率：11.01req/s] [内存消耗：1,814.43kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'add',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 29 - 46
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'yunsu_doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => '',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=yunsu_doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\add.html [ array (
+  0 => 'taskid',
+  1 => 'taskList',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `tasks` WHERE  `year` = '2016'  AND `month` = '10'  AND `day` = '19'  AND `athname` = '陈万洲' LIMIT 1       [ RunTime:0.000906s ]
+
+[ 2016-10-19T23:45:11+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/add?mc=3
+[ log ] yunsudoc.com/home/task/add?mc=3 [运行时间：0.103363s][吞吐率：9.67req/s] [内存消耗：1,814.43kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'add',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 29 - 46
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'yunsu_doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => '',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=yunsu_doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\add.html [ array (
+  0 => 'taskid',
+  1 => 'taskList',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `tasks` WHERE  `year` = '2016'  AND `month` = '10'  AND `day` = '19'  AND `athname` = '陈万洲' LIMIT 1       [ RunTime:0.000929s ]
+
+[ 2016-10-19T23:45:14+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/add?mc=3
+[ log ] yunsudoc.com/home/task/add?mc=3 [运行时间：0.079935s][吞吐率：12.51req/s] [内存消耗：1,814.43kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'add',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 29 - 46
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'yunsu_doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => '',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=yunsu_doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\add.html [ array (
+  0 => 'taskid',
+  1 => 'taskList',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `tasks` WHERE  `year` = '2016'  AND `month` = '10'  AND `day` = '19'  AND `athname` = '陈万洲' LIMIT 1       [ RunTime:0.000948s ]
+
+[ 2016-10-19T23:45:24+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/add?mc=3
+[ log ] yunsudoc.com/home/task/add?mc=3 [运行时间：0.079877s][吞吐率：12.52req/s] [内存消耗：1,814.43kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'add',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 29 - 46
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'yunsu_doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => '',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=yunsu_doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\add.html [ array (
+  0 => 'taskid',
+  1 => 'taskList',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `tasks` WHERE  `year` = '2016'  AND `month` = '10'  AND `day` = '19'  AND `athname` = '陈万洲' LIMIT 1       [ RunTime:0.000827s ]
+
+[ 2016-10-19T23:45:35+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/add?mc=3
+[ log ] yunsudoc.com/home/task/add?mc=3 [运行时间：0.096006s][吞吐率：10.42req/s] [内存消耗：1,814.43kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'add',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 29 - 46
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'yunsu_doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => '',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=yunsu_doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\add.html [ array (
+  0 => 'taskid',
+  1 => 'taskList',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `tasks` WHERE  `year` = '2016'  AND `month` = '10'  AND `day` = '19'  AND `athname` = '陈万洲' LIMIT 1       [ RunTime:0.001181s ]
+
+[ 2016-10-19T23:46:05+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/add?mc=3
+[ log ] yunsudoc.com/home/task/add?mc=3 [运行时间：0.088352s][吞吐率：11.32req/s] [内存消耗：1,814.43kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'add',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 29 - 46
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'yunsu_doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => '',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=yunsu_doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\add.html [ array (
+  0 => 'taskid',
+  1 => 'taskList',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `tasks` WHERE  `year` = '2016'  AND `month` = '10'  AND `day` = '19'  AND `athname` = '陈万洲' LIMIT 1       [ RunTime:0.000916s ]
+
+[ 2016-10-19T23:46:10+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/add?mc=3
+[ log ] yunsudoc.com/home/task/add?mc=3 [运行时间：0.079176s][吞吐率：12.63req/s] [内存消耗：1,814.43kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'add',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 29 - 46
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'yunsu_doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => '',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=yunsu_doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\add.html [ array (
+  0 => 'taskid',
+  1 => 'taskList',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `tasks` WHERE  `year` = '2016'  AND `month` = '10'  AND `day` = '19'  AND `athname` = '陈万洲' LIMIT 1       [ RunTime:0.000866s ]
+
+[ 2016-10-19T23:48:46+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/add?mc=3
+[ log ] yunsudoc.com/home/task/add?mc=3 [运行时间：0.103319s][吞吐率：9.68req/s] [内存消耗：1,814.41kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'add',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 29 - 46
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'yunsu_doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => '',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=yunsu_doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\add.html [ array (
+  0 => 'taskid',
+  1 => 'taskList',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `tasks` WHERE  `year` = '2016'  AND `month` = '10'  AND `day` = '19'  AND `athname` = '陈万洲' LIMIT 1       [ RunTime:0.000921s ]
+
+[ 2016-10-19T23:48:50+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/add?mc=3
+[ log ] yunsudoc.com/home/task/add?mc=3 [运行时间：0.091197s][吞吐率：10.97req/s] [内存消耗：1,814.43kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'add',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 29 - 46
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'yunsu_doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => '',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=yunsu_doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\add.html [ array (
+  0 => 'taskid',
+  1 => 'taskList',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `tasks` WHERE  `year` = '2016'  AND `month` = '10'  AND `day` = '19'  AND `athname` = '陈万洲' LIMIT 1       [ RunTime:0.000903s ]
+
+[ 2016-10-19T23:49:29+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/add?mc=3
+[ log ] yunsudoc.com/home/task/add?mc=3 [运行时间：0.078263s][吞吐率：12.78req/s] [内存消耗：1,814.43kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'add',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 29 - 46
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'yunsu_doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => '',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=yunsu_doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\add.html [ array (
+  0 => 'taskid',
+  1 => 'taskList',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `tasks` WHERE  `year` = '2016'  AND `month` = '10'  AND `day` = '19'  AND `athname` = '陈万洲' LIMIT 1       [ RunTime:0.000826s ]
+
+[ 2016-10-19T23:53:01+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/add?mc=3
+[ log ] yunsudoc.com/home/task/add?mc=3 [运行时间：0.106601s][吞吐率：9.38req/s] [内存消耗：1,814.43kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'add',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 29 - 46
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'yunsu_doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => '',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=yunsu_doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\add.html [ array (
+  0 => 'taskid',
+  1 => 'taskList',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `tasks` WHERE  `year` = '2016'  AND `month` = '10'  AND `day` = '19'  AND `athname` = '陈万洲' LIMIT 1       [ RunTime:0.000987s ]
+
+[ 2016-10-19T23:54:13+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/add?mc=3
+[ log ] yunsudoc.com/home/task/add?mc=3 [运行时间：0.106207s][吞吐率：9.42req/s] [内存消耗：1,814.42kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'add',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 29 - 46
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'yunsu_doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => '',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=yunsu_doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\add.html [ array (
+  0 => 'taskid',
+  1 => 'taskList',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `tasks` WHERE  `year` = '2016'  AND `month` = '10'  AND `day` = '19'  AND `athname` = '陈万洲' LIMIT 1       [ RunTime:0.000863s ]
+
+[ 2016-10-19T23:55:03+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/add?mc=3
+[ log ] yunsudoc.com/home/task/add?mc=3 [运行时间：0.091157s][吞吐率：10.97req/s] [内存消耗：1,814.43kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'add',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 29 - 46
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'yunsu_doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => '',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=yunsu_doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\add.html [ array (
+  0 => 'taskid',
+  1 => 'taskList',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `tasks` WHERE  `year` = '2016'  AND `month` = '10'  AND `day` = '19'  AND `athname` = '陈万洲' LIMIT 1       [ RunTime:0.000982s ]
+
+[ 2016-10-19T23:55:44+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/add?mc=3
+[ log ] yunsudoc.com/home/task/add?mc=3 [运行时间：0.089393s][吞吐率：11.19req/s] [内存消耗：1,814.41kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'add',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 29 - 46
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'yunsu_doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => '',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=yunsu_doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\add.html [ array (
+  0 => 'taskid',
+  1 => 'taskList',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `tasks` WHERE  `year` = '2016'  AND `month` = '10'  AND `day` = '19'  AND `athname` = '陈万洲' LIMIT 1       [ RunTime:0.000905s ]
+
+[ 2016-10-19T23:56:53+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/add?mc=3
+[ log ] yunsudoc.com/home/task/add?mc=3 [运行时间：0.116317s][吞吐率：8.60req/s] [内存消耗：1,963.33kb] [文件加载：39]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'add',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 29 - 46
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'yunsu_doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => '',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=yunsu_doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\add.html [ array (
+  0 => 'taskid',
+  1 => 'taskList',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `tasks` WHERE  `year` = '2016'  AND `month` = '10'  AND `day` = '19'  AND `athname` = '陈万洲' LIMIT 1       [ RunTime:0.001020s ]
+

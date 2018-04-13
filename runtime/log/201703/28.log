@@ -1,0 +1,40 @@
+[ 2017-03-28T13:42:46+02:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] doc.com/favicon.ico [运行时间：0.547731s][吞吐率：1.83req/s] [内存消耗：562.13kb] [文件加载：18]
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+
+[ 2017-03-28T16:00:27+02:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] doc.com/favicon.ico [运行时间：0.012683s][吞吐率：78.85req/s] [内存消耗：562.16kb] [文件加载：18]
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+
+[ 2017-03-28T16:51:31+02:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] doc.com/favicon.ico [运行时间：0.013385s][吞吐率：74.71req/s] [内存消耗：561.64kb] [文件加载：18]
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+
+[ 2017-03-28T17:03:46+02:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] doc.com/favicon.ico [运行时间：0.009713s][吞吐率：102.95req/s] [内存消耗：562.13kb] [文件加载：18]
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+

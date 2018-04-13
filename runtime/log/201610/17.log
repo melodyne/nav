@@ -1,0 +1,4433 @@
+[ 2016-10-17T00:00:36+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.068067s][吞吐率：14.69req/s] [内存消耗：1,185.55kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T00:02:30+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.067911s][吞吐率：14.73req/s] [内存消耗：1,185.42kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T00:02:32+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.050441s][吞吐率：19.83req/s] [内存消耗：1,043.27kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T00:02:57+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.057599s][吞吐率：17.36req/s] [内存消耗：1,043.27kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T00:03:39+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.045260s][吞吐率：22.09req/s] [内存消耗：1,043.27kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T00:04:33+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.054620s][吞吐率：18.31req/s] [内存消耗：1,043.27kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T00:04:39+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.045468s][吞吐率：21.99req/s] [内存消耗：1,043.27kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T00:04:51+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.045164s][吞吐率：22.14req/s] [内存消耗：1,043.27kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T00:06:19+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.055250s][吞吐率：18.10req/s] [内存消耗：1,043.27kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T00:06:22+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.044480s][吞吐率：22.48req/s] [内存消耗：1,043.27kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T00:07:20+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.057862s][吞吐率：17.28req/s] [内存消耗：1,043.27kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T00:07:44+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.058135s][吞吐率：17.20req/s] [内存消耗：1,043.27kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T00:09:28+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.059734s][吞吐率：16.74req/s] [内存消耗：1,043.27kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T00:11:58+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.063491s][吞吐率：15.75req/s] [内存消耗：1,185.48kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T00:12:46+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.056621s][吞吐率：17.66req/s] [内存消耗：1,043.24kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T00:13:34+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.052605s][吞吐率：19.01req/s] [内存消耗：1,185.45kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T00:13:48+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.053478s][吞吐率：18.70req/s] [内存消耗：1,185.48kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T00:14:38+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.068703s][吞吐率：14.56req/s] [内存消耗：1,185.52kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T00:15:13+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.051143s][吞吐率：19.55req/s] [内存消耗：1,043.29kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T00:15:53+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.068078s][吞吐率：14.69req/s] [内存消耗：1,185.48kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T00:16:53+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.053063s][吞吐率：18.85req/s] [内存消耗：1,185.51kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T00:16:55+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.056544s][吞吐率：17.69req/s] [内存消耗：1,043.26kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T00:17:36+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.065517s][吞吐率：15.26req/s] [内存消耗：1,185.52kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T00:18:03+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.066491s][吞吐率：15.04req/s] [内存消耗：1,185.52kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T00:19:37+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.067393s][吞吐率：14.84req/s] [内存消耗：1,185.49kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T00:20:47+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.056385s][吞吐率：17.74req/s] [内存消耗：1,043.29kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T00:21:09+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.056635s][吞吐率：17.66req/s] [内存消耗：1,043.29kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T00:21:34+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.058491s][吞吐率：17.10req/s] [内存消耗：1,185.53kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T00:21:36+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.062910s][吞吐率：15.90req/s] [内存消耗：1,043.23kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T00:21:53+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.054901s][吞吐率：18.21req/s] [内存消耗：1,185.58kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T00:22:38+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.054501s][吞吐率：18.35req/s] [内存消耗：1,185.48kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T00:23:02+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.052735s][吞吐率：18.96req/s] [内存消耗：1,185.48kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T00:23:40+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.063192s][吞吐率：15.82req/s] [内存消耗：1,185.50kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T00:24:52+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.055064s][吞吐率：18.16req/s] [内存消耗：1,043.28kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T00:25:11+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.056643s][吞吐率：17.65req/s] [内存消耗：1,043.28kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T00:25:50+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.053193s][吞吐率：18.80req/s] [内存消耗：1,185.50kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T00:26:07+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.054145s][吞吐率：18.47req/s] [内存消耗：1,185.50kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T00:26:23+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.058328s][吞吐率：17.14req/s] [内存消耗：1,185.50kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T00:26:50+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.066217s][吞吐率：15.10req/s] [内存消耗：1,185.50kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T00:27:19+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.064515s][吞吐率：15.50req/s] [内存消耗：1,185.53kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T00:27:35+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.054428s][吞吐率：18.37req/s] [内存消耗：1,185.50kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T00:30:29+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.065634s][吞吐率：15.24req/s] [内存消耗：1,185.05kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T00:30:47+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.052066s][吞吐率：19.21req/s] [内存消耗：1,185.04kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T00:31:13+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.063056s][吞吐率：15.86req/s] [内存消耗：1,185.05kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T00:31:27+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.055030s][吞吐率：18.17req/s] [内存消耗：1,185.05kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T00:31:45+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.063914s][吞吐率：15.65req/s] [内存消耗：1,185.07kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T00:32:25+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.053742s][吞吐率：18.61req/s] [内存消耗：1,185.05kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T00:32:35+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.053900s][吞吐率：18.55req/s] [内存消耗：1,185.07kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T00:33:51+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.063465s][吞吐率：15.76req/s] [内存消耗：1,043.25kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T00:34:44+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.050414s][吞吐率：19.84req/s] [内存消耗：1,043.25kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T00:35:46+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.047159s][吞吐率：21.20req/s] [内存消耗：1,043.25kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T00:35:49+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.055875s][吞吐率：17.90req/s] [内存消耗：1,043.25kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T00:37:55+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.059522s][吞吐率：16.80req/s] [内存消耗：1,043.26kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T00:39:21+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.058747s][吞吐率：17.02req/s] [内存消耗：1,043.27kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T00:40:13+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.058795s][吞吐率：17.01req/s] [内存消耗：1,043.23kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T00:40:15+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.045427s][吞吐率：22.01req/s] [内存消耗：1,043.23kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T00:41:13+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.064009s][吞吐率：15.62req/s] [内存消耗：1,185.19kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T00:41:51+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.045098s][吞吐率：22.17req/s] [内存消耗：1,043.24kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T00:42:36+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.054296s][吞吐率：18.42req/s] [内存消耗：1,185.22kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T00:44:53+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.065598s][吞吐率：15.24req/s] [内存消耗：1,185.30kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T00:45:54+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.070758s][吞吐率：14.13req/s] [内存消耗：1,185.22kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T15:02:32+02:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] yunsudoc.com/favicon.ico [运行时间：0.045762s][吞吐率：21.85req/s] [内存消耗：562.01kb] [文件加载：18]
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+
+[ 2016-10-17T21:02:49+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] yunsudoc.com/ [运行时间：0.122406s][吞吐率：8.17req/s] [内存消耗：1,953.78kb] [文件加载：39]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Index.php 9 - 14
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'yunsu_doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => '',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=yunsu_doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\index\index.html [ array (
+  0 => 'linksList',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `links`  [ RunTime:0.000787s ]
+
+[ 2016-10-17T21:02:49+08:00 ] 127.0.0.1 127.0.0.1 GET /css/app.png
+[ log ] yunsudoc.com/css/app.png [运行时间：0.042165s][吞吐率：23.72req/s] [内存消耗：852.66kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'css',
+    1 => 'app.png',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T21:02:50+08:00 ] 127.0.0.1 127.0.0.1 GET /css/app.png
+[ log ] yunsudoc.com/css/app.png [运行时间：0.043970s][吞吐率：22.74req/s] [内存消耗：852.66kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'css',
+    1 => 'app.png',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T15:02:50+02:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] yunsudoc.com/favicon.ico [运行时间：0.026920s][吞吐率：37.15req/s] [内存消耗：561.63kb] [文件加载：18]
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+
+[ 2016-10-17T21:05:51+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.061561s][吞吐率：16.24req/s] [内存消耗：1,043.26kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T21:25:49+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.059838s][吞吐率：16.71req/s] [内存消耗：1,043.21kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T21:25:58+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.068254s][吞吐率：14.65req/s] [内存消耗：1,187.34kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T21:26:20+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.065594s][吞吐率：15.25req/s] [内存消耗：1,186.71kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T21:28:44+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.063889s][吞吐率：15.65req/s] [内存消耗：1,187.71kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T21:29:01+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.064091s][吞吐率：15.60req/s] [内存消耗：1,186.95kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T21:30:08+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.063222s][吞吐率：15.82req/s] [内存消耗：1,187.40kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T21:30:25+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.056291s][吞吐率：17.76req/s] [内存消耗：1,186.95kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T21:30:46+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.064921s][吞吐率：15.40req/s] [内存消耗：1,186.92kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T21:31:45+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.053942s][吞吐率：18.54req/s] [内存消耗：1,187.02kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T21:31:47+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.046584s][吞吐率：21.47req/s] [内存消耗：1,043.21kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T21:32:05+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.053483s][吞吐率：18.70req/s] [内存消耗：1,186.95kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T21:32:07+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.048059s][吞吐率：20.81req/s] [内存消耗：1,043.23kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T21:32:25+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.053430s][吞吐率：18.72req/s] [内存消耗：1,186.80kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T21:35:18+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.057022s][吞吐率：17.54req/s] [内存消耗：1,043.21kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T21:37:32+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.063913s][吞吐率：15.65req/s] [内存消耗：1,185.41kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T21:37:53+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.062083s][吞吐率：16.11req/s] [内存消耗：1,185.38kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T21:38:15+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.053934s][吞吐率：18.54req/s] [内存消耗：1,185.48kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T21:38:37+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.069124s][吞吐率：14.47req/s] [内存消耗：1,283.09kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+[ error ] [8]Use of undefined constant 六 - assumed '六'[D:\xampp\htdocs\yunsuDoc\runtime\temp\2ec52a955bbbaa09431be400e682c891.php:45]
+
+[ 2016-10-17T21:46:16+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.067792s][吞吐率：14.75req/s] [内存消耗：1,185.90kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T21:48:35+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.063070s][吞吐率：15.86req/s] [内存消耗：1,186.05kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T21:48:55+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.055971s][吞吐率：17.87req/s] [内存消耗：1,043.20kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T21:49:19+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.047688s][吞吐率：20.97req/s] [内存消耗：1,043.20kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T21:49:58+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.056138s][吞吐率：17.81req/s] [内存消耗：1,043.24kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T21:50:50+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.047373s][吞吐率：21.11req/s] [内存消耗：1,043.24kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T21:52:42+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.055243s][吞吐率：18.10req/s] [内存消耗：1,043.20kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T21:53:26+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.057223s][吞吐率：17.48req/s] [内存消耗：1,043.20kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T21:56:05+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.081186s][吞吐率：12.32req/s] [内存消耗：1,298.61kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+[ error ] [1]Call to undefined function data()[D:\xampp\htdocs\yunsuDoc\runtime\temp\2ec52a955bbbaa09431be400e682c891.php:47]
+
+[ 2016-10-17T21:56:27+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.056539s][吞吐率：17.69req/s] [内存消耗：1,184.85kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T21:59:01+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.063300s][吞吐率：15.80req/s] [内存消耗：1,186.30kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T21:59:53+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.064009s][吞吐率：15.62req/s] [内存消耗：1,186.30kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 25
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T22:02:20+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.065495s][吞吐率：15.27req/s] [内存消耗：1,187.13kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T22:02:24+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.044582s][吞吐率：22.43req/s] [内存消耗：1,044.07kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T22:03:29+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.063332s][吞吐率：15.79req/s] [内存消耗：1,187.22kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T22:03:31+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.045884s][吞吐率：21.79req/s] [内存消耗：1,044.15kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T22:05:03+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.063465s][吞吐率：15.76req/s] [内存消耗：1,187.29kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T22:06:36+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.057251s][吞吐率：17.47req/s] [内存消耗：1,044.14kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T22:19:51+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.064212s][吞吐率：15.57req/s] [内存消耗：1,187.39kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T22:20:47+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.066193s][吞吐率：15.11req/s] [内存消耗：1,187.39kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T22:20:49+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.043786s][吞吐率：22.84req/s] [内存消耗：1,044.10kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T22:21:11+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.053071s][吞吐率：18.84req/s] [内存消耗：1,187.41kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T22:21:41+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.050653s][吞吐率：19.74req/s] [内存消耗：1,187.50kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T22:22:52+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.064258s][吞吐率：15.56req/s] [内存消耗：1,187.47kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T22:23:17+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.051047s][吞吐率：19.59req/s] [内存消耗：1,187.46kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T22:24:02+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.065417s][吞吐率：15.29req/s] [内存消耗：1,187.47kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T22:24:04+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.049871s][吞吐率：20.05req/s] [内存消耗：1,044.10kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T22:24:12+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.045054s][吞吐率：22.20req/s] [内存消耗：1,044.10kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T22:24:14+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.045037s][吞吐率：22.20req/s] [内存消耗：1,044.10kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T22:24:17+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.046033s][吞吐率：21.72req/s] [内存消耗：1,044.10kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T22:24:24+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.044397s][吞吐率：22.52req/s] [内存消耗：1,044.10kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T22:24:59+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.064030s][吞吐率：15.62req/s] [内存消耗：1,187.79kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T22:25:45+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.067058s][吞吐率：14.91req/s] [内存消耗：1,187.44kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T22:25:48+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.045271s][吞吐率：22.09req/s] [内存消耗：1,044.10kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T22:28:40+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.064695s][吞吐率：15.46req/s] [内存消耗：1,187.36kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T22:29:44+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.049383s][吞吐率：20.25req/s] [内存消耗：1,044.13kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T22:29:46+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.045158s][吞吐率：22.14req/s] [内存消耗：1,044.13kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T22:30:31+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.047252s][吞吐率：21.16req/s] [内存消耗：1,044.13kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T22:31:21+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.058020s][吞吐率：17.24req/s] [内存消耗：1,044.13kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T22:31:35+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.043603s][吞吐率：22.93req/s] [内存消耗：1,044.13kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T22:31:58+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.044125s][吞吐率：22.66req/s] [内存消耗：1,044.13kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T22:32:02+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.046931s][吞吐率：21.31req/s] [内存消耗：1,044.13kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T22:32:16+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.047634s][吞吐率：20.99req/s] [内存消耗：1,044.13kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T22:32:34+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.046898s][吞吐率：21.32req/s] [内存消耗：1,044.13kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T22:33:18+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.046144s][吞吐率：21.67req/s] [内存消耗：1,044.13kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T22:33:21+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.044274s][吞吐率：22.59req/s] [内存消耗：1,044.13kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T22:33:42+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.056780s][吞吐率：17.61req/s] [内存消耗：1,044.13kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T22:33:56+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.044523s][吞吐率：22.46req/s] [内存消耗：1,044.13kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T22:34:23+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.045192s][吞吐率：22.13req/s] [内存消耗：1,044.13kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T22:35:19+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.045831s][吞吐率：21.82req/s] [内存消耗：1,044.13kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T22:35:37+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.047996s][吞吐率：20.84req/s] [内存消耗：1,044.13kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T22:35:44+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.054623s][吞吐率：18.31req/s] [内存消耗：1,044.13kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T22:36:18+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.056366s][吞吐率：17.74req/s] [内存消耗：1,044.13kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T22:36:40+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.047307s][吞吐率：21.14req/s] [内存消耗：1,044.13kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T22:36:56+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.045104s][吞吐率：22.17req/s] [内存消耗：1,044.13kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T22:37:07+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.047989s][吞吐率：20.84req/s] [内存消耗：1,044.13kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T22:37:38+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.057712s][吞吐率：17.33req/s] [内存消耗：1,044.13kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T22:38:40+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.055875s][吞吐率：17.90req/s] [内存消耗：1,044.13kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T22:39:31+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.053465s][吞吐率：18.70req/s] [内存消耗：1,187.45kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T22:40:07+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.055660s][吞吐率：17.97req/s] [内存消耗：1,044.10kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T22:41:01+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.055671s][吞吐率：17.96req/s] [内存消耗：1,044.10kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T22:42:45+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.052441s][吞吐率：19.07req/s] [内存消耗：1,187.45kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T22:44:58+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.067641s][吞吐率：14.78req/s] [内存消耗：1,187.48kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T22:45:34+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.068278s][吞吐率：14.65req/s] [内存消耗：1,187.42kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T22:45:48+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.053278s][吞吐率：18.77req/s] [内存消耗：1,187.36kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T22:46:17+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.043948s][吞吐率：22.75req/s] [内存消耗：1,044.18kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T22:46:31+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.045187s][吞吐率：22.13req/s] [内存消耗：1,044.18kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T22:47:08+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.056350s][吞吐率：17.75req/s] [内存消耗：1,044.18kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T22:48:02+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.055245s][吞吐率：18.10req/s] [内存消耗：1,044.18kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T22:48:20+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.044496s][吞吐率：22.47req/s] [内存消耗：1,044.18kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T22:54:33+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.063617s][吞吐率：15.72req/s] [内存消耗：1,187.39kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T22:56:09+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.064163s][吞吐率：15.59req/s] [内存消耗：1,187.48kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T23:02:51+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.063584s][吞吐率：15.73req/s] [内存消耗：1,187.55kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T23:04:47+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.044534s][吞吐率：22.45req/s] [内存消耗：1,044.16kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T23:06:23+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.059869s][吞吐率：16.70req/s] [内存消耗：1,044.16kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T23:06:27+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.056025s][吞吐率：17.85req/s] [内存消耗：1,044.16kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T23:07:07+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.046020s][吞吐率：21.73req/s] [内存消耗：1,044.16kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T23:07:48+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.044771s][吞吐率：22.34req/s] [内存消耗：1,044.16kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T23:08:03+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.046203s][吞吐率：21.64req/s] [内存消耗：1,044.16kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T23:09:24+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.057056s][吞吐率：17.53req/s] [内存消耗：1,044.16kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T23:13:14+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.065587s][吞吐率：15.25req/s] [内存消耗：1,187.70kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T23:13:38+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.064337s][吞吐率：15.54req/s] [内存消耗：1,187.72kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T23:16:17+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.064944s][吞吐率：15.40req/s] [内存消耗：1,187.80kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T23:16:56+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.053058s][吞吐率：18.85req/s] [内存消耗：1,187.84kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T23:17:30+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.053894s][吞吐率：18.55req/s] [内存消耗：1,187.82kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T23:20:25+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.066235s][吞吐率：15.10req/s] [内存消耗：1,187.71kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T23:21:49+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.054850s][吞吐率：18.23req/s] [内存消耗：1,187.73kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T23:22:10+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.058159s][吞吐率：17.19req/s] [内存消耗：1,044.12kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T23:22:34+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.044143s][吞吐率：22.65req/s] [内存消耗：1,044.12kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T23:23:07+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.045116s][吞吐率：22.17req/s] [内存消耗：1,044.12kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T23:23:10+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.047153s][吞吐率：21.21req/s] [内存消耗：1,044.12kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T23:23:32+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.045285s][吞吐率：22.08req/s] [内存消耗：1,044.12kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T23:24:25+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.055917s][吞吐率：17.88req/s] [内存消耗：1,044.12kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T23:24:55+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.059332s][吞吐率：16.85req/s] [内存消耗：1,044.12kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T23:25:17+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.045676s][吞吐率：21.89req/s] [内存消耗：1,044.12kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T23:27:37+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.062766s][吞吐率：15.93req/s] [内存消耗：1,187.69kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T23:28:13+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.063698s][吞吐率：15.70req/s] [内存消耗：1,187.73kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T23:30:24+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.063579s][吞吐率：15.73req/s] [内存消耗：1,187.76kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T23:32:34+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.065324s][吞吐率：15.31req/s] [内存消耗：1,187.71kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T23:34:28+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.064472s][吞吐率：15.51req/s] [内存消耗：1,187.76kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T23:37:42+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.063434s][吞吐率：15.76req/s] [内存消耗：1,187.70kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T23:38:38+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.056581s][吞吐率：17.67req/s] [内存消耗：1,044.12kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T23:39:49+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.046040s][吞吐率：21.72req/s] [内存消耗：1,044.12kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T23:40:04+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.044058s][吞吐率：22.70req/s] [内存消耗：1,044.12kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T23:40:20+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.045502s][吞吐率：21.98req/s] [内存消耗：1,044.12kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T23:40:30+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.047736s][吞吐率：20.95req/s] [内存消耗：1,044.12kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T23:54:26+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.063896s][吞吐率：15.65req/s] [内存消耗：1,187.45kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T23:54:30+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.056679s][吞吐率：17.64req/s] [内存消耗：1,044.13kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T23:55:15+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.053954s][吞吐率：18.53req/s] [内存消耗：1,187.44kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T23:55:19+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/home/task/show
+[ log ] yunsudoc.com/home/task/home/task/show [运行时间：0.057503s][吞吐率：17.39req/s] [内存消耗：1,120.58kb] [文件加载：32]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'home',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T23:56:29+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.065855s][吞吐率：15.18req/s] [内存消耗：1,187.36kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T23:56:32+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show
+[ log ] yunsudoc.com/home/task/show [运行时间：0.045910s][吞吐率：21.78req/s] [内存消耗：1,044.15kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Task.php 9 - 27
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\task\show.html [ array (
+  0 => 'today',
+  1 => 'dayarr',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-17T18:02:28+02:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] yunsudoc.com/favicon.ico [运行时间：0.037611s][吞吐率：26.59req/s] [内存消耗：561.59kb] [文件加载：18]
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+

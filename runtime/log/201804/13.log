@@ -1,0 +1,4527 @@
+[ 2018-04-13T12:43:17+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] nav.com/ [运行时间：0.080000s][吞吐率：12.50req/s] [内存消耗：2,825.66kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Index.php 9 - 14
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\server\apache\2.4\htdocs\nav/application/home\view\index\index.html [ array (
+  0 => 'linksList',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `doc_links`  [ RunTime:0.000000s ]
+
+[ 2018-04-13T12:43:17+08:00 ] 127.0.0.1 127.0.0.1 GET /css/app.png
+[ log ] nav.com/css/app.png [运行时间：0.021000s][吞吐率：47.62req/s] [内存消耗：1,330.32kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'css',
+    1 => 'app.png',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T12:43:17+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] nav.com/favicon.ico [运行时间：0.008000s][吞吐率：125.00req/s] [内存消耗：877.34kb] [文件加载：18]
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+
+[ 2018-04-13T12:43:19+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show?mc=1
+[ log ] nav.com/home/task/show?mc=1 [运行时间：0.034000s][吞吐率：29.41req/s] [内存消耗：3,021.83kb] [文件加载：41]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Task.php 10 - 50
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `doc_authors`  [ RunTime:0.000000s ]
+[ error ] [42S02]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'doc.doc_tasks' doesn't exist[D:\server\apache\2.4\htdocs\nav\thinkphp\library\think\db\connector\Mysql.php:58]
+
+[ 2018-04-13T12:43:27+08:00 ] 127.0.0.1 127.0.0.1 GET /js/check.js
+[ log ] nav.com/js/check.js [运行时间：0.012000s][吞吐率：83.33req/s] [内存消耗：1,329.41kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'check.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T12:43:27+08:00 ] 127.0.0.1 127.0.0.1 GET /js/set.js
+[ log ] nav.com/js/set.js [运行时间：0.017000s][吞吐率：58.82req/s] [内存消耗：1,329.48kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'set.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T12:43:38+08:00 ] 127.0.0.1 127.0.0.1 GET /home/project/index
+[ log ] nav.com/home/project/index [运行时间：0.021000s][吞吐率：47.62req/s] [内存消耗：1,593.42kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'project',
+    2 => 'index',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Project.php 9 - 14
+}
+
+[ info ] [ VIEW ] D:\server\apache\2.4\htdocs\nav/application/home\view\project\index.html [ array (
+  0 => 'projects',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T12:43:38+08:00 ] 127.0.0.1 127.0.0.1 GET /example/html/demo_iframe.html
+[ log ] nav.com/example/html/demo_iframe.html [运行时间：0.015000s][吞吐率：66.67req/s] [内存消耗：1,329.45kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'example',
+    1 => 'html',
+    2 => 'demo_iframe',
+  ),
+)
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T12:44:12+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php
+[ log ] nav.com/index.php [运行时间：0.042000s][吞吐率：23.81req/s] [内存消耗：2,825.68kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Index.php 9 - 14
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\server\apache\2.4\htdocs\nav/application/home\view\index\index.html [ array (
+  0 => 'linksList',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `doc_links`  [ RunTime:0.001000s ]
+
+[ 2018-04-13T12:44:12+08:00 ] 127.0.0.1 127.0.0.1 GET /css/app.png
+[ log ] nav.com/css/app.png [运行时间：0.015000s][吞吐率：66.67req/s] [内存消耗：1,329.24kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'css',
+    1 => 'app.png',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T12:44:12+08:00 ] 127.0.0.1 127.0.0.1 GET /css/app.png
+[ log ] nav.com/css/app.png [运行时间：0.013000s][吞吐率：76.92req/s] [内存消耗：1,329.24kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'css',
+    1 => 'app.png',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T12:44:13+08:00 ] 127.0.0.1 127.0.0.1 GET /home/project/index
+[ log ] nav.com/home/project/index [运行时间：0.017000s][吞吐率：58.82req/s] [内存消耗：1,593.32kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'project',
+    2 => 'index',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Project.php 9 - 14
+}
+
+[ info ] [ VIEW ] D:\server\apache\2.4\htdocs\nav/application/home\view\project\index.html [ array (
+  0 => 'projects',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T12:44:13+08:00 ] 127.0.0.1 127.0.0.1 GET /example/html/demo_iframe.html
+[ log ] nav.com/example/html/demo_iframe.html [运行时间：0.016000s][吞吐率：62.50req/s] [内存消耗：1,329.45kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'example',
+    1 => 'html',
+    2 => 'demo_iframe',
+  ),
+)
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T12:44:16+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show?mc=1
+[ log ] nav.com/home/task/show?mc=1 [运行时间：0.048000s][吞吐率：20.83req/s] [内存消耗：3,022.22kb] [文件加载：41]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Task.php 10 - 50
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `doc_authors`  [ RunTime:0.001000s ]
+[ error ] [42S02]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'doc.doc_tasks' doesn't exist[D:\server\apache\2.4\htdocs\nav\thinkphp\library\think\db\connector\Mysql.php:58]
+
+[ 2018-04-13T12:45:10+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show?mc=1
+[ log ] nav.com/home/task/show?mc=1 [运行时间：0.046000s][吞吐率：21.74req/s] [内存消耗：3,022.39kb] [文件加载：41]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Task.php 10 - 50
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `doc_authors`  [ RunTime:0.000000s ]
+[ error ] [42S02]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'doc.doc_tasks' doesn't exist[D:\server\apache\2.4\htdocs\nav\thinkphp\library\think\db\connector\Mysql.php:58]
+
+[ 2018-04-13T12:45:24+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show?mc=1
+[ log ] nav.com/home/task/show?mc=1 [运行时间：0.038000s][吞吐率：26.32req/s] [内存消耗：3,022.39kb] [文件加载：41]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Task.php 10 - 50
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `doc_authors`  [ RunTime:0.001000s ]
+[ error ] [42S02]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'doc.doc_tasks' doesn't exist[D:\server\apache\2.4\htdocs\nav\thinkphp\library\think\db\connector\Mysql.php:58]
+
+[ 2018-04-13T12:45:26+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show?mc=1
+[ log ] nav.com/home/task/show?mc=1 [运行时间：0.042000s][吞吐率：23.81req/s] [内存消耗：3,022.39kb] [文件加载：41]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Task.php 10 - 50
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `doc_authors`  [ RunTime:0.000000s ]
+[ error ] [42S02]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'doc.doc_tasks' doesn't exist[D:\server\apache\2.4\htdocs\nav\thinkphp\library\think\db\connector\Mysql.php:58]
+
+[ 2018-04-13T12:45:37+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show?mc=1
+[ log ] nav.com/home/task/show?mc=1 [运行时间：0.049000s][吞吐率：20.41req/s] [内存消耗：3,035.23kb] [文件加载：44]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Task.php 10 - 50
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `doc_authors`  [ RunTime:0.001000s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'year' in 'where clause'[D:\server\apache\2.4\htdocs\nav\thinkphp\library\think\db\Connection.php:361]
+
+[ 2018-04-13T12:46:16+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show?mc=1
+[ log ] nav.com/home/task/show?mc=1 [运行时间：0.045000s][吞吐率：22.22req/s] [内存消耗：3,035.95kb] [文件加载：44]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Task.php 10 - 50
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `doc_authors`  [ RunTime:0.001000s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'month' in 'where clause'[D:\server\apache\2.4\htdocs\nav\thinkphp\library\think\db\Connection.php:361]
+
+[ 2018-04-13T12:46:58+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show?mc=1
+[ log ] nav.com/home/task/show?mc=1 [运行时间：0.045000s][吞吐率：22.22req/s] [内存消耗：3,036.26kb] [文件加载：44]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Task.php 10 - 50
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `doc_authors`  [ RunTime:0.000000s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'day' in 'where clause'[D:\server\apache\2.4\htdocs\nav\thinkphp\library\think\db\Connection.php:361]
+
+[ 2018-04-13T12:47:14+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show?mc=1
+[ log ] nav.com/home/task/show?mc=1 [运行时间：0.045000s][吞吐率：22.22req/s] [内存消耗：3,036.75kb] [文件加载：44]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Task.php 10 - 50
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `doc_authors`  [ RunTime:0.000000s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'authorid' in 'where clause'[D:\server\apache\2.4\htdocs\nav\thinkphp\library\think\db\Connection.php:361]
+
+[ 2018-04-13T12:47:34+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show?mc=1
+[ log ] nav.com/home/task/show?mc=1 [运行时间：0.054000s][吞吐率：18.52req/s] [内存消耗：3,129.51kb] [文件加载：40]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Task.php 10 - 50
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\server\apache\2.4\htdocs\nav/application/home\view\task\show.html [ array (
+  0 => 'year',
+  1 => 'month',
+  2 => 'today',
+  3 => 'openday',
+  4 => 'dayarr',
+  5 => 'todayTasks',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `doc_authors`  [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '3' LIMIT 1       [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '4' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '5' LIMIT 1       [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '6' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '8' LIMIT 1       [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '9' LIMIT 1       [ RunTime:0.000000s ]
+
+[ 2018-04-13T12:47:54+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/add?mc=3
+[ log ] nav.com/home/task/add?mc=3 [运行时间：0.026000s][吞吐率：38.46req/s] [内存消耗：1,841.29kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'add',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Task.php 52 - 69
+}
+
+[ info ] [ VIEW ] D:\server\apache\2.4\htdocs\nav/application/home\view\user\login.html [ array (
+  0 => 'loginInfo',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T12:47:56+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show?mc=1
+[ log ] nav.com/home/task/show?mc=1 [运行时间：0.048000s][吞吐率：20.83req/s] [内存消耗：2,905.91kb] [文件加载：38]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Task.php 10 - 50
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\server\apache\2.4\htdocs\nav/application/home\view\task\show.html [ array (
+  0 => 'year',
+  1 => 'month',
+  2 => 'today',
+  3 => 'openday',
+  4 => 'dayarr',
+  5 => 'todayTasks',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `doc_authors`  [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '3' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '4' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '5' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '6' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '8' LIMIT 1       [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '9' LIMIT 1       [ RunTime:0.000000s ]
+
+[ 2018-04-13T12:47:57+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/add?mc=3
+[ log ] nav.com/home/task/add?mc=3 [运行时间：0.020000s][吞吐率：50.00req/s] [内存消耗：1,621.41kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'add',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Task.php 52 - 69
+}
+
+[ info ] [ VIEW ] D:\server\apache\2.4\htdocs\nav/application/home\view\user\login.html [ array (
+  0 => 'loginInfo',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T12:48:01+08:00 ] 127.0.0.1 127.0.0.1 GET /home/user/login?mc=6
+[ log ] nav.com/home/user/login?mc=6 [运行时间：0.020000s][吞吐率：50.00req/s] [内存消耗：1,640.84kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ RUN ] /**
+     * 登录
+     * @return [type] [description]
+     */
+Method [ <user> public method login ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\User.php 15 - 138
+}
+
+[ info ] [ VIEW ] D:\server\apache\2.4\htdocs\nav/application/home\view\user\login.html [ array (
+  0 => 'loginInfo',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T12:48:04+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show?mc=1
+[ log ] nav.com/home/task/show?mc=1 [运行时间：0.038000s][吞吐率：26.32req/s] [内存消耗：2,905.91kb] [文件加载：38]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Task.php 10 - 50
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\server\apache\2.4\htdocs\nav/application/home\view\task\show.html [ array (
+  0 => 'year',
+  1 => 'month',
+  2 => 'today',
+  3 => 'openday',
+  4 => 'dayarr',
+  5 => 'todayTasks',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `doc_authors`  [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '3' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '4' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '5' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '6' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '8' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '9' LIMIT 1       [ RunTime:0.000000s ]
+
+[ 2018-04-13T12:48:32+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show?mc=1
+[ log ] nav.com/home/task/show?mc=1 [运行时间：0.038000s][吞吐率：26.32req/s] [内存消耗：2,905.91kb] [文件加载：38]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Task.php 10 - 50
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\server\apache\2.4\htdocs\nav/application/home\view\task\show.html [ array (
+  0 => 'year',
+  1 => 'month',
+  2 => 'today',
+  3 => 'openday',
+  4 => 'dayarr',
+  5 => 'todayTasks',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `doc_authors`  [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '3' LIMIT 1       [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '4' LIMIT 1       [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '5' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '6' LIMIT 1       [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '8' LIMIT 1       [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '9' LIMIT 1       [ RunTime:0.000000s ]
+
+[ 2018-04-13T12:48:42+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show?mc=1&y=18&m=04&d=11
+[ log ] nav.com/home/task/show?mc=1&y=18&m=04&d=11 [运行时间：0.048000s][吞吐率：20.83req/s] [内存消耗：2,906.40kb] [文件加载：38]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Task.php 10 - 50
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\server\apache\2.4\htdocs\nav/application/home\view\task\show.html [ array (
+  0 => 'year',
+  1 => 'month',
+  2 => 'today',
+  3 => 'openday',
+  4 => 'dayarr',
+  5 => 'todayTasks',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `doc_authors`  [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '11'  AND `authorid` = '3' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '11'  AND `authorid` = '4' LIMIT 1       [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '11'  AND `authorid` = '5' LIMIT 1       [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '11'  AND `authorid` = '6' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '11'  AND `authorid` = '8' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '11'  AND `authorid` = '9' LIMIT 1       [ RunTime:0.000000s ]
+
+[ 2018-04-13T12:48:44+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show?mc=1&y=18&m=04&d=12
+[ log ] nav.com/home/task/show?mc=1&y=18&m=04&d=12 [运行时间：0.038000s][吞吐率：26.32req/s] [内存消耗：2,906.55kb] [文件加载：38]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Task.php 10 - 50
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\server\apache\2.4\htdocs\nav/application/home\view\task\show.html [ array (
+  0 => 'year',
+  1 => 'month',
+  2 => 'today',
+  3 => 'openday',
+  4 => 'dayarr',
+  5 => 'todayTasks',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `doc_authors`  [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '12'  AND `authorid` = '3' LIMIT 1       [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '12'  AND `authorid` = '4' LIMIT 1       [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '12'  AND `authorid` = '5' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '12'  AND `authorid` = '6' LIMIT 1       [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '12'  AND `authorid` = '8' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '12'  AND `authorid` = '9' LIMIT 1       [ RunTime:0.000000s ]
+
+[ 2018-04-13T12:48:46+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show?mc=1&y=18&m=04&d=13
+[ log ] nav.com/home/task/show?mc=1&y=18&m=04&d=13 [运行时间：0.047000s][吞吐率：21.28req/s] [内存消耗：2,906.55kb] [文件加载：38]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Task.php 10 - 50
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\server\apache\2.4\htdocs\nav/application/home\view\task\show.html [ array (
+  0 => 'year',
+  1 => 'month',
+  2 => 'today',
+  3 => 'openday',
+  4 => 'dayarr',
+  5 => 'todayTasks',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `doc_authors`  [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '3' LIMIT 1       [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '4' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '5' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '6' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '8' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '9' LIMIT 1       [ RunTime:0.000000s ]
+
+[ 2018-04-13T12:48:59+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show?mc=1&y=18&m=04&d=13
+[ log ] nav.com/home/task/show?mc=1&y=18&m=04&d=13 [运行时间：0.050000s][吞吐率：20.00req/s] [内存消耗：2,906.55kb] [文件加载：38]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Task.php 10 - 50
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\server\apache\2.4\htdocs\nav/application/home\view\task\show.html [ array (
+  0 => 'year',
+  1 => 'month',
+  2 => 'today',
+  3 => 'openday',
+  4 => 'dayarr',
+  5 => 'todayTasks',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `doc_authors`  [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '3' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '4' LIMIT 1       [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '5' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '6' LIMIT 1       [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '8' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '9' LIMIT 1       [ RunTime:0.001000s ]
+
+[ 2018-04-13T12:51:44+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php
+[ log ] nav.com/index.php [运行时间：0.042000s][吞吐率：23.81req/s] [内存消耗：2,825.53kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Index.php 9 - 14
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\server\apache\2.4\htdocs\nav/application/home\view\index\index.html [ array (
+  0 => 'linksList',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `doc_links`  [ RunTime:0.001000s ]
+
+[ 2018-04-13T12:51:44+08:00 ] 127.0.0.1 127.0.0.1 GET /css/app.png
+[ log ] nav.com/css/app.png [运行时间：0.017000s][吞吐率：58.82req/s] [内存消耗：1,329.27kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'css',
+    1 => 'app.png',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T12:51:46+08:00 ] 127.0.0.1 127.0.0.1 GET /home/project/index
+[ log ] nav.com/home/project/index [运行时间：0.020000s][吞吐率：50.00req/s] [内存消耗：1,593.38kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'project',
+    2 => 'index',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Project.php 9 - 14
+}
+
+[ info ] [ VIEW ] D:\server\apache\2.4\htdocs\nav/application/home\view\project\index.html [ array (
+  0 => 'projects',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T12:51:46+08:00 ] 127.0.0.1 127.0.0.1 GET /example/html/demo_iframe.html
+[ log ] nav.com/example/html/demo_iframe.html [运行时间：0.017000s][吞吐率：58.82req/s] [内存消耗：1,329.50kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'example',
+    1 => 'html',
+    2 => 'demo_iframe',
+  ),
+)
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T12:51:51+08:00 ] 127.0.0.1 127.0.0.1 GET /js/check.js
+[ log ] nav.com/js/check.js [运行时间：0.014000s][吞吐率：71.43req/s] [内存消耗：1,329.35kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'check.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T12:51:51+08:00 ] 127.0.0.1 127.0.0.1 GET /js/set.js
+[ log ] nav.com/js/set.js [运行时间：0.015000s][吞吐率：66.67req/s] [内存消耗：1,329.41kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'set.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T12:52:29+08:00 ] 127.0.0.1 127.0.0.1 GET /home/project/index
+[ log ] nav.com/home/project/index [运行时间：0.018000s][吞吐率：55.56req/s] [内存消耗：1,593.37kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'project',
+    2 => 'index',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Project.php 9 - 14
+}
+
+[ info ] [ VIEW ] D:\server\apache\2.4\htdocs\nav/application/home\view\project\index.html [ array (
+  0 => 'projects',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T12:52:29+08:00 ] 127.0.0.1 127.0.0.1 GET /example/html/demo_iframe.html
+[ log ] nav.com/example/html/demo_iframe.html [运行时间：0.015000s][吞吐率：66.67req/s] [内存消耗：1,329.50kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'example',
+    1 => 'html',
+    2 => 'demo_iframe',
+  ),
+)
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T12:52:41+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php
+[ log ] nav.com/index.php [运行时间：0.039000s][吞吐率：25.64req/s] [内存消耗：2,825.71kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Index.php 9 - 14
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\server\apache\2.4\htdocs\nav/application/home\view\index\index.html [ array (
+  0 => 'linksList',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `doc_links`  [ RunTime:0.000000s ]
+
+[ 2018-04-13T12:52:41+08:00 ] 127.0.0.1 127.0.0.1 GET /css/app.png
+[ log ] nav.com/css/app.png [运行时间：0.013000s][吞吐率：76.92req/s] [内存消耗：1,329.27kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'css',
+    1 => 'app.png',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T12:52:44+08:00 ] 127.0.0.1 127.0.0.1 GET /home/project/index
+[ log ] nav.com/home/project/index [运行时间：0.017000s][吞吐率：58.82req/s] [内存消耗：1,593.38kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'project',
+    2 => 'index',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Project.php 9 - 14
+}
+
+[ info ] [ VIEW ] D:\server\apache\2.4\htdocs\nav/application/home\view\project\index.html [ array (
+  0 => 'projects',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T12:52:44+08:00 ] 127.0.0.1 127.0.0.1 GET /example/html/demo_iframe.html
+[ log ] nav.com/example/html/demo_iframe.html [运行时间：0.016000s][吞吐率：62.50req/s] [内存消耗：1,329.50kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'example',
+    1 => 'html',
+    2 => 'demo_iframe',
+  ),
+)
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T12:53:00+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show?mc=1
+[ log ] nav.com/home/task/show?mc=1 [运行时间：0.043000s][吞吐率：23.26req/s] [内存消耗：2,905.91kb] [文件加载：38]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Task.php 10 - 50
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\server\apache\2.4\htdocs\nav/application/home\view\task\show.html [ array (
+  0 => 'year',
+  1 => 'month',
+  2 => 'today',
+  3 => 'openday',
+  4 => 'dayarr',
+  5 => 'todayTasks',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `doc_authors`  [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '3' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '4' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '5' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '6' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '8' LIMIT 1       [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '9' LIMIT 1       [ RunTime:0.000000s ]
+
+[ 2018-04-13T12:53:08+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show?mc=1
+[ log ] nav.com/home/task/show?mc=1 [运行时间：0.033000s][吞吐率：30.30req/s] [内存消耗：2,905.91kb] [文件加载：38]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Task.php 10 - 50
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\server\apache\2.4\htdocs\nav/application/home\view\task\show.html [ array (
+  0 => 'year',
+  1 => 'month',
+  2 => 'today',
+  3 => 'openday',
+  4 => 'dayarr',
+  5 => 'todayTasks',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `doc_authors`  [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '3' LIMIT 1       [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '4' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '5' LIMIT 1       [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '6' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '8' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '9' LIMIT 1       [ RunTime:0.000000s ]
+
+[ 2018-04-13T12:53:12+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show?mc=1
+[ log ] nav.com/home/task/show?mc=1 [运行时间：0.045000s][吞吐率：22.22req/s] [内存消耗：2,905.91kb] [文件加载：38]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Task.php 10 - 50
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\server\apache\2.4\htdocs\nav/application/home\view\task\show.html [ array (
+  0 => 'year',
+  1 => 'month',
+  2 => 'today',
+  3 => 'openday',
+  4 => 'dayarr',
+  5 => 'todayTasks',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `doc_authors`  [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '3' LIMIT 1       [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '4' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '5' LIMIT 1       [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '6' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '8' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '9' LIMIT 1       [ RunTime:0.000000s ]
+
+[ 2018-04-13T12:53:13+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show?mc=1
+[ log ] nav.com/home/task/show?mc=1 [运行时间：0.042000s][吞吐率：23.81req/s] [内存消耗：2,905.91kb] [文件加载：38]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Task.php 10 - 50
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\server\apache\2.4\htdocs\nav/application/home\view\task\show.html [ array (
+  0 => 'year',
+  1 => 'month',
+  2 => 'today',
+  3 => 'openday',
+  4 => 'dayarr',
+  5 => 'todayTasks',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `doc_authors`  [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '3' LIMIT 1       [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '4' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '5' LIMIT 1       [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '6' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '8' LIMIT 1       [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '9' LIMIT 1       [ RunTime:0.000000s ]
+
+[ 2018-04-13T12:53:15+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show?mc=1
+[ log ] nav.com/home/task/show?mc=1 [运行时间：0.045000s][吞吐率：22.22req/s] [内存消耗：2,905.91kb] [文件加载：38]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Task.php 10 - 50
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\server\apache\2.4\htdocs\nav/application/home\view\task\show.html [ array (
+  0 => 'year',
+  1 => 'month',
+  2 => 'today',
+  3 => 'openday',
+  4 => 'dayarr',
+  5 => 'todayTasks',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `doc_authors`  [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '3' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '4' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '5' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '6' LIMIT 1       [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '8' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '9' LIMIT 1       [ RunTime:0.000000s ]
+
+[ 2018-04-13T12:53:18+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/add?mc=3
+[ log ] nav.com/home/task/add?mc=3 [运行时间：0.018000s][吞吐率：55.56req/s] [内存消耗：1,621.41kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'add',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Task.php 52 - 69
+}
+
+[ info ] [ VIEW ] D:\server\apache\2.4\htdocs\nav/application/home\view\user\login.html [ array (
+  0 => 'loginInfo',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T12:53:35+08:00 ] 127.0.0.1 127.0.0.1 POST /api/user/login
+[ log ] nav.com/api/user/login [运行时间：0.040000s][吞吐率：25.00req/s] [内存消耗：2,970.39kb] [文件加载：43]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method login ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\api\controller\User.php 11 - 39
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'loginpwd' in 'where clause'[D:\server\apache\2.4\htdocs\nav\thinkphp\library\think\db\Connection.php:361]
+
+[ 2018-04-13T12:53:37+08:00 ] 127.0.0.1 127.0.0.1 POST /api/user/login
+[ log ] nav.com/api/user/login [运行时间：0.031000s][吞吐率：32.26req/s] [内存消耗：2,970.39kb] [文件加载：43]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method login ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\api\controller\User.php 11 - 39
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'loginpwd' in 'where clause'[D:\server\apache\2.4\htdocs\nav\thinkphp\library\think\db\Connection.php:361]
+
+[ 2018-04-13T12:53:53+08:00 ] 127.0.0.1 127.0.0.1 POST /api/user/login
+[ log ] nav.com/api/user/login [运行时间：0.037000s][吞吐率：27.03req/s] [内存消耗：2,970.39kb] [文件加载：43]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method login ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\api\controller\User.php 11 - 39
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'loginpwd' in 'where clause'[D:\server\apache\2.4\htdocs\nav\thinkphp\library\think\db\Connection.php:361]
+
+[ 2018-04-13T12:54:36+08:00 ] 127.0.0.1 127.0.0.1 POST /api/user/login
+[ log ] nav.com/api/user/login [运行时间：0.033000s][吞吐率：30.30req/s] [内存消耗：2,823.26kb] [文件加载：36]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method login ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\api\controller\User.php 11 - 39
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `doc_authors` WHERE  `authname` = 'wanzhou'  AND `loginpwd` = '123456' LIMIT 1     [ RunTime:0.000000s ]
+
+[ 2018-04-13T12:55:01+08:00 ] 127.0.0.1 127.0.0.1 POST /api/user/login
+[ log ] nav.com/api/user/login [运行时间：0.041000s][吞吐率：24.39req/s] [内存消耗：2,823.09kb] [文件加载：36]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method login ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\api\controller\User.php 11 - 39
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `doc_authors` WHERE  `authname` = '陈万洲'  AND `loginpwd` = '123456' LIMIT 1     [ RunTime:0.000000s ]
+
+[ 2018-04-13T12:55:04+08:00 ] 127.0.0.1 127.0.0.1 POST /api/user/login
+[ log ] nav.com/api/user/login [运行时间：0.039000s][吞吐率：25.64req/s] [内存消耗：2,823.09kb] [文件加载：36]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method login ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\api\controller\User.php 11 - 39
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `doc_authors` WHERE  `authname` = '陈万洲'  AND `loginpwd` = '123456' LIMIT 1     [ RunTime:0.001000s ]
+
+[ 2018-04-13T12:58:06+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/add?mc=3
+[ log ] nav.com/home/task/add?mc=3 [运行时间：0.028000s][吞吐率：35.71req/s] [内存消耗：1,621.21kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'add',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Task.php 52 - 69
+}
+
+[ info ] [ VIEW ] D:\server\apache\2.4\htdocs\nav/application/home\view\user\login.html [ array (
+  0 => 'loginInfo',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T13:00:51+08:00 ] 127.0.0.1 127.0.0.1 POST /api/user/login
+[ log ] nav.com/api/user/login [运行时间：0.040000s][吞吐率：25.00req/s] [内存消耗：2,824.41kb] [文件加载：36]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method login ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\api\controller\User.php 11 - 43
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `doc_authors` WHERE  `authname` = '陈万洲' LIMIT 1    [ RunTime:0.001000s ]
+
+[ 2018-04-13T13:01:21+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/add?mc=3
+[ log ] nav.com/home/task/add?mc=3 [运行时间：0.024000s][吞吐率：41.67req/s] [内存消耗：1,621.21kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'add',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Task.php 52 - 69
+}
+
+[ info ] [ VIEW ] D:\server\apache\2.4\htdocs\nav/application/home\view\user\login.html [ array (
+  0 => 'loginInfo',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T13:01:33+08:00 ] 127.0.0.1 127.0.0.1 POST /api/user/login
+[ log ] nav.com/api/user/login [运行时间：0.048000s][吞吐率：20.83req/s] [内存消耗：2,824.72kb] [文件加载：36]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method login ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\api\controller\User.php 11 - 42
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `doc_authors` WHERE  `authname` = '陈万洲' LIMIT 1    [ RunTime:0.001000s ]
+
+[ 2018-04-13T13:01:34+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/add?mc=3
+[ log ] nav.com/home/task/add?mc=3 [运行时间：0.042000s][吞吐率：23.81req/s] [内存消耗：3,048.66kb] [文件加载：39]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'add',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Task.php 52 - 69
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\server\apache\2.4\htdocs\nav/application/home\view\task\add.html [ array (
+  0 => 'taskid',
+  1 => 'taskList',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '5' LIMIT 1       [ RunTime:0.000000s ]
+
+[ 2018-04-13T13:01:47+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/add?mc=3
+[ log ] nav.com/home/task/add?mc=3 [运行时间：0.036000s][吞吐率：27.78req/s] [内存消耗：2,827.53kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'add',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Task.php 52 - 69
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\server\apache\2.4\htdocs\nav/application/home\view\task\add.html [ array (
+  0 => 'taskid',
+  1 => 'taskList',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '5' LIMIT 1       [ RunTime:0.000000s ]
+
+[ 2018-04-13T13:02:23+08:00 ] 127.0.0.1 127.0.0.1 POST /api/task/commit
+[ log ] nav.com/api/task/commit [运行时间：0.046000s][吞吐率：21.74req/s] [内存消耗：2,890.77kb] [文件加载：40]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task',
+    2 => 'commit',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method commit ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\api\controller\Task.php 10 - 48
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ error ] [0]数据表字段不存在 :[athname][D:\server\apache\2.4\htdocs\nav\thinkphp\library\think\db\Builder.php:97]
+
+[ 2018-04-13T13:02:31+08:00 ] 127.0.0.1 127.0.0.1 POST /api/task/commit
+[ log ] nav.com/api/task/commit [运行时间：0.052000s][吞吐率：19.23req/s] [内存消耗：2,890.77kb] [文件加载：40]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task',
+    2 => 'commit',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method commit ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\api\controller\Task.php 10 - 48
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ error ] [0]数据表字段不存在 :[athname][D:\server\apache\2.4\htdocs\nav\thinkphp\library\think\db\Builder.php:97]
+
+[ 2018-04-13T13:03:11+08:00 ] 127.0.0.1 127.0.0.1 POST /api/task/commit
+[ log ] nav.com/api/task/commit [运行时间：0.052000s][吞吐率：19.23req/s] [内存消耗：2,891.62kb] [文件加载：40]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task',
+    2 => 'commit',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method commit ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\api\controller\Task.php 10 - 48
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ error ] [0]数据表字段不存在 :[describe][D:\server\apache\2.4\htdocs\nav\thinkphp\library\think\db\Builder.php:97]
+
+[ 2018-04-13T13:03:38+08:00 ] 127.0.0.1 127.0.0.1 POST /api/task/commit
+[ log ] nav.com/api/task/commit [运行时间：0.041000s][吞吐率：24.39req/s] [内存消耗：2,814.37kb] [文件加载：36]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task',
+    2 => 'commit',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method commit ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\api\controller\Task.php 10 - 48
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ sql ] [ SQL ] INSERT INTO `doc_tasks` (`authorid` , `athname` , `describe` , `year` , `month` , `day`) VALUES ('5' , '陈万洲' , '[{\"type\":\"新增功能\",\"module\":\"模块\",\"task\":\"胜多负少的\",\"progress\":\"100\"},{\"type\":\"完善功能\",\"module\":\"的双方各\",\"task\":\"水电费\",\"progress\":\"100\"}]' , '18' , '04' , '13')        [ RunTime:0.004000s ]
+
+[ 2018-04-13T13:04:35+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show?mc=1
+[ log ] nav.com/home/task/show?mc=1 [运行时间：0.048000s][吞吐率：20.83req/s] [内存消耗：2,919.84kb] [文件加载：38]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Task.php 10 - 50
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\server\apache\2.4\htdocs\nav/application/home\view\task\show.html [ array (
+  0 => 'year',
+  1 => 'month',
+  2 => 'today',
+  3 => 'openday',
+  4 => 'dayarr',
+  5 => 'todayTasks',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `doc_authors`  [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '3' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '4' LIMIT 1       [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '5' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '6' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '8' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '9' LIMIT 1       [ RunTime:0.000000s ]
+
+[ 2018-04-13T13:05:03+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show?mc=1
+[ log ] nav.com/home/task/show?mc=1 [运行时间：0.054000s][吞吐率：18.52req/s] [内存消耗：2,919.84kb] [文件加载：38]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Task.php 10 - 50
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\server\apache\2.4\htdocs\nav/application/home\view\task\show.html [ array (
+  0 => 'year',
+  1 => 'month',
+  2 => 'today',
+  3 => 'openday',
+  4 => 'dayarr',
+  5 => 'todayTasks',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `doc_authors`  [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '3' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '4' LIMIT 1       [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '5' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '6' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '8' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '9' LIMIT 1       [ RunTime:0.000000s ]
+
+[ 2018-04-13T13:05:09+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/add?mc=3
+[ log ] nav.com/home/task/add?mc=3 [运行时间：0.043000s][吞吐率：23.26req/s] [内存消耗：2,970.55kb] [文件加载：40]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'add',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Task.php 52 - 69
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '5' LIMIT 1       [ RunTime:0.001000s ]
+[ error ] [0]类的属性不存在 :app\home\model\Tasks->taskid[D:\server\apache\2.4\htdocs\nav\thinkphp\library\think\Model.php:392]
+
+[ 2018-04-13T13:05:43+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/add?mc=3
+[ log ] nav.com/home/task/add?mc=3 [运行时间：0.052000s][吞吐率：19.23req/s] [内存消耗：2,835.06kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'add',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Task.php 52 - 69
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\server\apache\2.4\htdocs\nav/application/home\view\task\add.html [ array (
+  0 => 'taskid',
+  1 => 'taskList',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '5' LIMIT 1       [ RunTime:0.001000s ]
+
+[ 2018-04-13T13:05:45+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/add?mc=3
+[ log ] nav.com/home/task/add?mc=3 [运行时间：0.049000s][吞吐率：20.41req/s] [内存消耗：2,835.24kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'add',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Task.php 52 - 69
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\server\apache\2.4\htdocs\nav/application/home\view\task\add.html [ array (
+  0 => 'taskid',
+  1 => 'taskList',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '5' LIMIT 1       [ RunTime:0.001000s ]
+
+[ 2018-04-13T13:05:47+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show?mc=1
+[ log ] nav.com/home/task/show?mc=1 [运行时间：0.054000s][吞吐率：18.52req/s] [内存消耗：2,919.88kb] [文件加载：38]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Task.php 10 - 50
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\server\apache\2.4\htdocs\nav/application/home\view\task\show.html [ array (
+  0 => 'year',
+  1 => 'month',
+  2 => 'today',
+  3 => 'openday',
+  4 => 'dayarr',
+  5 => 'todayTasks',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `doc_authors`  [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '3' LIMIT 1       [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '4' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '5' LIMIT 1       [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '6' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '8' LIMIT 1       [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '9' LIMIT 1       [ RunTime:0.000000s ]
+
+[ 2018-04-13T13:05:53+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show?mc=1
+[ log ] nav.com/home/task/show?mc=1 [运行时间：0.061000s][吞吐率：16.39req/s] [内存消耗：2,919.88kb] [文件加载：38]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Task.php 10 - 50
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\server\apache\2.4\htdocs\nav/application/home\view\task\show.html [ array (
+  0 => 'year',
+  1 => 'month',
+  2 => 'today',
+  3 => 'openday',
+  4 => 'dayarr',
+  5 => 'todayTasks',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `doc_authors`  [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '3' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '4' LIMIT 1       [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '5' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '6' LIMIT 1       [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '8' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '9' LIMIT 1       [ RunTime:0.001000s ]
+
+[ 2018-04-13T13:05:57+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show?mc=1
+[ log ] nav.com/home/task/show?mc=1 [运行时间：0.055000s][吞吐率：18.18req/s] [内存消耗：2,919.88kb] [文件加载：38]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Task.php 10 - 50
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\server\apache\2.4\htdocs\nav/application/home\view\task\show.html [ array (
+  0 => 'year',
+  1 => 'month',
+  2 => 'today',
+  3 => 'openday',
+  4 => 'dayarr',
+  5 => 'todayTasks',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `doc_authors`  [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '3' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '4' LIMIT 1       [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '5' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '6' LIMIT 1       [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '8' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '9' LIMIT 1       [ RunTime:0.000000s ]
+
+[ 2018-04-13T13:05:59+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/add?mc=3
+[ log ] nav.com/home/task/add?mc=3 [运行时间：0.053000s][吞吐率：18.87req/s] [内存消耗：2,835.24kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'add',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Task.php 52 - 69
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\server\apache\2.4\htdocs\nav/application/home\view\task\add.html [ array (
+  0 => 'taskid',
+  1 => 'taskList',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '5' LIMIT 1       [ RunTime:0.001000s ]
+
+[ 2018-04-13T13:06:08+08:00 ] 127.0.0.1 127.0.0.1 GET /home/user/login?mc=6
+[ log ] nav.com/home/user/login?mc=6 [运行时间：0.031000s][吞吐率：32.26req/s] [内存消耗：1,641.21kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ RUN ] /**
+     * 登录
+     * @return [type] [description]
+     */
+Method [ <user> public method login ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\User.php 15 - 138
+}
+
+[ info ] [ VIEW ] D:\server\apache\2.4\htdocs\nav/application/home\view\user\login.html [ array (
+  0 => 'loginInfo',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T13:06:14+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show?mc=1
+[ log ] nav.com/home/task/show?mc=1 [运行时间：0.055000s][吞吐率：18.18req/s] [内存消耗：2,919.88kb] [文件加载：38]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Task.php 10 - 50
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\server\apache\2.4\htdocs\nav/application/home\view\task\show.html [ array (
+  0 => 'year',
+  1 => 'month',
+  2 => 'today',
+  3 => 'openday',
+  4 => 'dayarr',
+  5 => 'todayTasks',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `doc_authors`  [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '3' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '4' LIMIT 1       [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '5' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '6' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '8' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '9' LIMIT 1       [ RunTime:0.001000s ]
+
+[ 2018-04-13T13:06:15+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/add?mc=3
+[ log ] nav.com/home/task/add?mc=3 [运行时间：0.047000s][吞吐率：21.28req/s] [内存消耗：2,835.24kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'add',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Task.php 52 - 69
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\server\apache\2.4\htdocs\nav/application/home\view\task\add.html [ array (
+  0 => 'taskid',
+  1 => 'taskList',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '5' LIMIT 1       [ RunTime:0.001000s ]
+
+[ 2018-04-13T13:06:18+08:00 ] 127.0.0.1 127.0.0.1 GET /home/user/login?mc=6
+[ log ] nav.com/home/user/login?mc=6 [运行时间：0.027000s][吞吐率：37.04req/s] [内存消耗：1,641.21kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ RUN ] /**
+     * 登录
+     * @return [type] [description]
+     */
+Method [ <user> public method login ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\User.php 15 - 138
+}
+
+[ info ] [ VIEW ] D:\server\apache\2.4\htdocs\nav/application/home\view\user\login.html [ array (
+  0 => 'loginInfo',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T13:06:24+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show?mc=1
+[ log ] nav.com/home/task/show?mc=1 [运行时间：0.056000s][吞吐率：17.86req/s] [内存消耗：2,919.88kb] [文件加载：38]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Task.php 10 - 50
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\server\apache\2.4\htdocs\nav/application/home\view\task\show.html [ array (
+  0 => 'year',
+  1 => 'month',
+  2 => 'today',
+  3 => 'openday',
+  4 => 'dayarr',
+  5 => 'todayTasks',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `doc_authors`  [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '3' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '4' LIMIT 1       [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '5' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '6' LIMIT 1       [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '8' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '9' LIMIT 1       [ RunTime:0.001000s ]
+
+[ 2018-04-13T13:06:36+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show?mc=1
+[ log ] nav.com/home/task/show?mc=1 [运行时间：0.047000s][吞吐率：21.28req/s] [内存消耗：2,919.74kb] [文件加载：38]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Task.php 10 - 50
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\server\apache\2.4\htdocs\nav/application/home\view\task\show.html [ array (
+  0 => 'year',
+  1 => 'month',
+  2 => 'today',
+  3 => 'openday',
+  4 => 'dayarr',
+  5 => 'todayTasks',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `doc_authors`  [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '3' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '4' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '5' LIMIT 1       [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '6' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '8' LIMIT 1       [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '9' LIMIT 1       [ RunTime:0.000000s ]
+
+[ 2018-04-13T13:06:55+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/add?mc=3
+[ log ] nav.com/home/task/add?mc=3 [运行时间：0.048000s][吞吐率：20.83req/s] [内存消耗：2,835.24kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'add',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Task.php 52 - 69
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\server\apache\2.4\htdocs\nav/application/home\view\task\add.html [ array (
+  0 => 'taskid',
+  1 => 'taskList',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '5' LIMIT 1       [ RunTime:0.000000s ]
+
+[ 2018-04-13T13:06:56+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php
+[ log ] nav.com/index.php [运行时间：0.050000s][吞吐率：20.00req/s] [内存消耗：2,825.56kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Index.php 9 - 14
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\server\apache\2.4\htdocs\nav/application/home\view\index\index.html [ array (
+  0 => 'linksList',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `doc_links`  [ RunTime:0.001000s ]
+
+[ 2018-04-13T13:06:56+08:00 ] 127.0.0.1 127.0.0.1 GET /css/app.png
+[ log ] nav.com/css/app.png [运行时间：0.017000s][吞吐率：58.82req/s] [内存消耗：1,329.27kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'css',
+    1 => 'app.png',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T13:06:56+08:00 ] 127.0.0.1 127.0.0.1 GET /css/app.png
+[ log ] nav.com/css/app.png [运行时间：0.017000s][吞吐率：58.82req/s] [内存消耗：1,329.27kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'css',
+    1 => 'app.png',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T13:06:59+08:00 ] 127.0.0.1 127.0.0.1 GET /home/project/index
+[ log ] nav.com/home/project/index [运行时间：0.024000s][吞吐率：41.67req/s] [内存消耗：1,593.38kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'project',
+    2 => 'index',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Project.php 9 - 14
+}
+
+[ info ] [ VIEW ] D:\server\apache\2.4\htdocs\nav/application/home\view\project\index.html [ array (
+  0 => 'projects',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T13:06:59+08:00 ] 127.0.0.1 127.0.0.1 GET /example/html/demo_iframe.html
+[ log ] nav.com/example/html/demo_iframe.html [运行时间：0.017000s][吞吐率：58.82req/s] [内存消耗：1,329.50kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'example',
+    1 => 'html',
+    2 => 'demo_iframe',
+  ),
+)
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T13:07:49+08:00 ] 127.0.0.1 127.0.0.1 GET /home/project/index
+[ log ] nav.com/home/project/index [运行时间：0.022000s][吞吐率：45.45req/s] [内存消耗：1,548.38kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'project',
+    2 => 'index',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Project.php 9 - 15
+}
+
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T13:07:55+08:00 ] 127.0.0.1 127.0.0.1 GET /home/project/index
+[ log ] nav.com/home/project/index [运行时间：0.027000s][吞吐率：37.04req/s] [内存消耗：1,593.37kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'project',
+    2 => 'index',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Project.php 9 - 14
+}
+
+[ info ] [ VIEW ] D:\server\apache\2.4\htdocs\nav/application/home\view\project\index.html [ array (
+  0 => 'projects',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T13:07:55+08:00 ] 127.0.0.1 127.0.0.1 GET /example/html/demo_iframe.html
+[ log ] nav.com/example/html/demo_iframe.html [运行时间：0.018000s][吞吐率：55.56req/s] [内存消耗：1,329.50kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'example',
+    1 => 'html',
+    2 => 'demo_iframe',
+  ),
+)
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T13:09:15+08:00 ] 127.0.0.1 127.0.0.1 GET /home/project/index
+[ log ] nav.com/home/project/index [运行时间：0.028000s][吞吐率：35.71req/s] [内存消耗：1,811.91kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'project',
+    2 => 'index',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Project.php 9 - 14
+}
+
+[ info ] [ VIEW ] D:\server\apache\2.4\htdocs\nav/application/home\view\project\index.html [ array (
+  0 => 'projects',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T13:09:19+08:00 ] 127.0.0.1 127.0.0.1 GET /home/project/index
+[ log ] nav.com/home/project/index [运行时间：0.024000s][吞吐率：41.67req/s] [内存消耗：1,593.43kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'project',
+    2 => 'index',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Project.php 9 - 14
+}
+
+[ info ] [ VIEW ] D:\server\apache\2.4\htdocs\nav/application/home\view\project\index.html [ array (
+  0 => 'projects',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T13:09:24+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php
+[ log ] nav.com/index.php [运行时间：0.047000s][吞吐率：21.28req/s] [内存消耗：2,825.56kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Index.php 9 - 14
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\server\apache\2.4\htdocs\nav/application/home\view\index\index.html [ array (
+  0 => 'linksList',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `doc_links`  [ RunTime:0.001000s ]
+
+[ 2018-04-13T13:09:24+08:00 ] 127.0.0.1 127.0.0.1 GET /css/app.png
+[ log ] nav.com/css/app.png [运行时间：0.016000s][吞吐率：62.50req/s] [内存消耗：1,329.27kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'css',
+    1 => 'app.png',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T13:09:24+08:00 ] 127.0.0.1 127.0.0.1 GET /css/app.png
+[ log ] nav.com/css/app.png [运行时间：0.018000s][吞吐率：55.56req/s] [内存消耗：1,329.27kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'css',
+    1 => 'app.png',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T13:09:27+08:00 ] 127.0.0.1 127.0.0.1 GET /home/project/index
+[ log ] nav.com/home/project/index [运行时间：0.023000s][吞吐率：43.48req/s] [内存消耗：1,593.29kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'project',
+    2 => 'index',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Project.php 9 - 14
+}
+
+[ info ] [ VIEW ] D:\server\apache\2.4\htdocs\nav/application/home\view\project\index.html [ array (
+  0 => 'projects',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T13:14:01+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php
+[ log ] nav.com/index.php [运行时间：0.050000s][吞吐率：20.00req/s] [内存消耗：2,825.71kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Index.php 9 - 14
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\server\apache\2.4\htdocs\nav/application/home\view\index\index.html [ array (
+  0 => 'linksList',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `doc_links`  [ RunTime:0.001000s ]
+
+[ 2018-04-13T13:14:01+08:00 ] 127.0.0.1 127.0.0.1 GET /css/app.png
+[ log ] nav.com/css/app.png [运行时间：0.017000s][吞吐率：58.82req/s] [内存消耗：1,329.27kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'css',
+    1 => 'app.png',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T13:14:04+08:00 ] 127.0.0.1 127.0.0.1 GET /home/project/index
+[ log ] nav.com/home/project/index [运行时间：0.023000s][吞吐率：43.48req/s] [内存消耗：1,593.29kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'project',
+    2 => 'index',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Project.php 9 - 14
+}
+
+[ info ] [ VIEW ] D:\server\apache\2.4\htdocs\nav/application/home\view\project\index.html [ array (
+  0 => 'projects',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T13:14:08+08:00 ] 127.0.0.1 127.0.0.1 GET /home/project/index
+[ log ] nav.com/home/project/index [运行时间：0.024000s][吞吐率：41.67req/s] [内存消耗：1,593.43kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'project',
+    2 => 'index',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Project.php 9 - 14
+}
+
+[ info ] [ VIEW ] D:\server\apache\2.4\htdocs\nav/application/home\view\project\index.html [ array (
+  0 => 'projects',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T13:15:02+08:00 ] 127.0.0.1 127.0.0.1 GET /home/project/index
+[ log ] nav.com/home/project/index [运行时间：0.028000s][吞吐率：35.71req/s] [内存消耗：1,812.23kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'project',
+    2 => 'index',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Project.php 9 - 14
+}
+
+[ info ] [ VIEW ] D:\server\apache\2.4\htdocs\nav/application/home\view\project\index.html [ array (
+  0 => 'projects',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T13:15:06+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php
+[ log ] nav.com/index.php [运行时间：0.046000s][吞吐率：21.74req/s] [内存消耗：2,825.56kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Index.php 9 - 14
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\server\apache\2.4\htdocs\nav/application/home\view\index\index.html [ array (
+  0 => 'linksList',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `doc_links`  [ RunTime:0.000000s ]
+
+[ 2018-04-13T13:15:06+08:00 ] 127.0.0.1 127.0.0.1 GET /css/app.png
+[ log ] nav.com/css/app.png [运行时间：0.019000s][吞吐率：52.63req/s] [内存消耗：1,329.27kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'css',
+    1 => 'app.png',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T13:15:08+08:00 ] 127.0.0.1 127.0.0.1 GET /home/project/index
+[ log ] nav.com/home/project/index [运行时间：0.024000s][吞吐率：41.67req/s] [内存消耗：1,593.38kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'project',
+    2 => 'index',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Project.php 9 - 14
+}
+
+[ info ] [ VIEW ] D:\server\apache\2.4\htdocs\nav/application/home\view\project\index.html [ array (
+  0 => 'projects',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T13:15:18+08:00 ] 127.0.0.1 127.0.0.1 GET /js/check.js
+[ log ] nav.com/js/check.js [运行时间：0.017000s][吞吐率：58.82req/s] [内存消耗：1,329.37kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'check.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T13:15:18+08:00 ] 127.0.0.1 127.0.0.1 GET /js/set.js
+[ log ] nav.com/js/set.js [运行时间：0.021000s][吞吐率：47.62req/s] [内存消耗：1,329.48kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'set.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T13:15:19+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show?mc=1
+[ log ] nav.com/home/task/show?mc=1 [运行时间：0.059000s][吞吐率：16.95req/s] [内存消耗：2,919.91kb] [文件加载：38]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Task.php 10 - 50
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\server\apache\2.4\htdocs\nav/application/home\view\task\show.html [ array (
+  0 => 'year',
+  1 => 'month',
+  2 => 'today',
+  3 => 'openday',
+  4 => 'dayarr',
+  5 => 'todayTasks',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `doc_authors`  [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '3' LIMIT 1       [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '4' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '5' LIMIT 1       [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '6' LIMIT 1       [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '8' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '9' LIMIT 1       [ RunTime:0.000000s ]
+
+[ 2018-04-13T13:15:21+08:00 ] 127.0.0.1 127.0.0.1 GET /js/check.js
+[ log ] nav.com/js/check.js [运行时间：0.019000s][吞吐率：52.63req/s] [内存消耗：1,329.37kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'check.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T13:15:21+08:00 ] 127.0.0.1 127.0.0.1 GET /js/set.js
+[ log ] nav.com/js/set.js [运行时间：0.029000s][吞吐率：34.48req/s] [内存消耗：1,329.48kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'set.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T13:16:00+08:00 ] 127.0.0.1 127.0.0.1 GET /js/check.js
+[ log ] nav.com/js/check.js [运行时间：0.018000s][吞吐率：55.56req/s] [内存消耗：1,329.37kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'check.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T13:16:00+08:00 ] 127.0.0.1 127.0.0.1 GET /js/set.js
+[ log ] nav.com/js/set.js [运行时间：0.019000s][吞吐率：52.63req/s] [内存消耗：1,329.48kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'set.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T13:16:00+08:00 ] 127.0.0.1 127.0.0.1 GET /js/set.js
+[ log ] nav.com/js/set.js [运行时间：0.018000s][吞吐率：55.56req/s] [内存消耗：1,329.48kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'set.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T13:20:03+08:00 ] 127.0.0.1 127.0.0.1 GET /js/check.js
+[ log ] nav.com/js/check.js [运行时间：0.014000s][吞吐率：71.43req/s] [内存消耗：1,329.37kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'check.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T13:20:03+08:00 ] 127.0.0.1 127.0.0.1 GET /js/set.js
+[ log ] nav.com/js/set.js [运行时间：0.019000s][吞吐率：52.63req/s] [内存消耗：1,329.48kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'set.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T13:22:05+08:00 ] 127.0.0.1 127.0.0.1 GET /js/set.js
+[ log ] nav.com/js/set.js [运行时间：0.015000s][吞吐率：66.67req/s] [内存消耗：1,329.48kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'set.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T13:22:05+08:00 ] 127.0.0.1 127.0.0.1 GET /js/check.js
+[ log ] nav.com/js/check.js [运行时间：0.017000s][吞吐率：58.82req/s] [内存消耗：1,329.37kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'check.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T13:22:05+08:00 ] 127.0.0.1 127.0.0.1 GET /js/check.js
+[ log ] nav.com/js/check.js [运行时间：0.018000s][吞吐率：55.56req/s] [内存消耗：1,329.37kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'check.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T13:22:05+08:00 ] 127.0.0.1 127.0.0.1 GET /js/set.js
+[ log ] nav.com/js/set.js [运行时间：0.016000s][吞吐率：62.50req/s] [内存消耗：1,329.48kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'set.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T13:22:16+08:00 ] 127.0.0.1 127.0.0.1 GET /js/set.js
+[ log ] nav.com/js/set.js [运行时间：0.014000s][吞吐率：71.43req/s] [内存消耗：1,329.48kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'set.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T13:22:16+08:00 ] 127.0.0.1 127.0.0.1 GET /js/check.js
+[ log ] nav.com/js/check.js [运行时间：0.016000s][吞吐率：62.50req/s] [内存消耗：1,329.37kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'check.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T13:22:16+08:00 ] 127.0.0.1 127.0.0.1 GET /js/set.js
+[ log ] nav.com/js/set.js [运行时间：0.017000s][吞吐率：58.82req/s] [内存消耗：1,329.48kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'set.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T13:23:20+08:00 ] 127.0.0.1 127.0.0.1 GET /js/set.js
+[ log ] nav.com/js/set.js [运行时间：0.015000s][吞吐率：66.67req/s] [内存消耗：1,329.48kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'set.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T13:23:20+08:00 ] 127.0.0.1 127.0.0.1 GET /js/check.js
+[ log ] nav.com/js/check.js [运行时间：0.021000s][吞吐率：47.62req/s] [内存消耗：1,329.37kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'check.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T13:23:20+08:00 ] 127.0.0.1 127.0.0.1 GET /js/set.js
+[ log ] nav.com/js/set.js [运行时间：0.018000s][吞吐率：55.56req/s] [内存消耗：1,329.48kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'set.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T13:24:03+08:00 ] 127.0.0.1 127.0.0.1 GET /js/set.js
+[ log ] nav.com/js/set.js [运行时间：0.015000s][吞吐率：66.67req/s] [内存消耗：1,329.48kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'set.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T13:24:03+08:00 ] 127.0.0.1 127.0.0.1 GET /js/check.js
+[ log ] nav.com/js/check.js [运行时间：0.016000s][吞吐率：62.50req/s] [内存消耗：1,329.37kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'check.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T13:24:03+08:00 ] 127.0.0.1 127.0.0.1 GET /js/set.js
+[ log ] nav.com/js/set.js [运行时间：0.020000s][吞吐率：50.00req/s] [内存消耗：1,329.48kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'set.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T13:24:08+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show?mc=1
+[ log ] nav.com/home/task/show?mc=1 [运行时间：0.052000s][吞吐率：19.23req/s] [内存消耗：2,922.73kb] [文件加载：38]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Task.php 10 - 50
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\server\apache\2.4\htdocs\nav/application/home\view\task\show.html [ array (
+  0 => 'year',
+  1 => 'month',
+  2 => 'today',
+  3 => 'openday',
+  4 => 'dayarr',
+  5 => 'todayTasks',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `doc_authors`  [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '3' LIMIT 1       [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '4' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '5' LIMIT 1       [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '6' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '8' LIMIT 1       [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `doc_tasks` WHERE  `year` = '18'  AND `month` = '04'  AND `day` = '13'  AND `authorid` = '9' LIMIT 1       [ RunTime:0.000000s ]
+
+[ 2018-04-13T13:24:12+08:00 ] 127.0.0.1 127.0.0.1 GET /js/check.js
+[ log ] nav.com/js/check.js [运行时间：0.017000s][吞吐率：58.82req/s] [内存消耗：1,329.37kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'check.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T13:24:12+08:00 ] 127.0.0.1 127.0.0.1 GET /js/set.js
+[ log ] nav.com/js/set.js [运行时间：0.024000s][吞吐率：41.67req/s] [内存消耗：1,329.48kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'set.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T13:25:28+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php
+[ log ] nav.com/index.php [运行时间：0.035000s][吞吐率：28.57req/s] [内存消耗：2,825.75kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Index.php 9 - 14
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\server\apache\2.4\htdocs\nav/application/home\view\index\index.html [ array (
+  0 => 'linksList',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `doc_links`  [ RunTime:0.001000s ]
+
+[ 2018-04-13T13:25:28+08:00 ] 127.0.0.1 127.0.0.1 GET /css/app.png
+[ log ] nav.com/css/app.png [运行时间：0.016000s][吞吐率：62.50req/s] [内存消耗：1,329.45kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'css',
+    1 => 'app.png',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T13:25:30+08:00 ] 127.0.0.1 127.0.0.1 GET /home/project/index
+[ log ] nav.com/home/project/index [运行时间：0.021000s][吞吐率：47.62req/s] [内存消耗：1,593.55kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'project',
+    2 => 'index',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Project.php 9 - 14
+}
+
+[ info ] [ VIEW ] D:\server\apache\2.4\htdocs\nav/application/home\view\project\index.html [ array (
+  0 => 'projects',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T13:27:58+08:00 ] 127.0.0.1 127.0.0.1 GET /css/closemenu.png
+[ log ] nav.com/css/closemenu.png [运行时间：0.020000s][吞吐率：50.00req/s] [内存消耗：1,329.13kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'css',
+    1 => 'closemenu.png',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T13:27:58+08:00 ] 127.0.0.1 127.0.0.1 GET /css/openmenu.png
+[ log ] nav.com/css/openmenu.png [运行时间：0.020000s][吞吐率：50.00req/s] [内存消耗：1,329.22kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'css',
+    1 => 'openmenu.png',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T13:28:00+08:00 ] 127.0.0.1 127.0.0.1 GET /css/closemenu.png
+[ log ] nav.com/css/closemenu.png [运行时间：0.018000s][吞吐率：55.56req/s] [内存消耗：1,329.13kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'css',
+    1 => 'closemenu.png',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-13T13:28:01+08:00 ] 127.0.0.1 127.0.0.1 GET /css/openmenu.png
+[ log ] nav.com/css/openmenu.png [运行时间：0.025000s][吞吐率：40.00req/s] [内存消耗：1,329.22kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'css',
+    1 => 'openmenu.png',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+

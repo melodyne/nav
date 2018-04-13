@@ -1,0 +1,3026 @@
+[ 2016-10-11T14:54:15+02:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] yunsudoc.com/favicon.ico [运行时间：0.040463s][吞吐率：24.71req/s] [内存消耗：562.00kb] [文件加载：18]
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+
+[ 2016-10-11T20:54:42+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] yunsudoc.com/ [运行时间：0.121111s][吞吐率：8.26req/s] [内存消耗：1,806.89kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Index.php 9 - 14
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'yunsu_doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => '',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=yunsu_doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\index\index.html [ array (
+  0 => 'linksList',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `links`  [ RunTime:0.000766s ]
+
+[ 2016-10-11T14:54:43+02:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] yunsudoc.com/favicon.ico [运行时间：0.028319s][吞吐率：35.31req/s] [内存消耗：561.63kb] [文件加载：18]
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+
+[ 2016-10-11T20:54:59+08:00 ] 127.0.0.1 127.0.0.1 GET /home/user/login
+[ log ] yunsudoc.com/home/user/login [运行时间：0.065460s][吞吐率：15.28req/s] [内存消耗：1,171.53kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method login ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\User.php 9 - 12
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\user\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T20:54:59+08:00 ] 127.0.0.1 127.0.0.1 GET /home/user/ueditor/third-party/jquery-1.10.2.min.js
+[ log ] yunsudoc.com/home/user/ueditor/third-party/jquery-1.10.2.min.js [运行时间：0.089645s][吞吐率：11.16req/s] [内存消耗：1,110.60kb] [文件加载：32]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'user',
+    2 => 'ueditor',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T20:54:59+08:00 ] 127.0.0.1 127.0.0.1 GET /onethink/Public/static/bootstrap/css/bootstrap.css
+[ log ] yunsudoc.com/onethink/Public/static/bootstrap/css/bootstrap.css [运行时间：0.079734s][吞吐率：12.54req/s] [内存消耗：847.05kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'onethink',
+    1 => 'Public',
+    2 => 'static',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T20:54:59+08:00 ] 127.0.0.1 127.0.0.1 GET /onethink/Public/static/bootstrap/css/bootstrap-responsive.css
+[ log ] yunsudoc.com/onethink/Public/static/bootstrap/css/bootstrap-responsive.css [运行时间：0.081713s][吞吐率：12.24req/s] [内存消耗：847.13kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'onethink',
+    1 => 'Public',
+    2 => 'static',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T20:54:59+08:00 ] 127.0.0.1 127.0.0.1 GET /onethink/Public/static/bootstrap/css/docs.css
+[ log ] yunsudoc.com/onethink/Public/static/bootstrap/css/docs.css [运行时间：0.081074s][吞吐率：12.33req/s] [内存消耗：847.02kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'onethink',
+    1 => 'Public',
+    2 => 'static',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T20:54:59+08:00 ] 127.0.0.1 127.0.0.1 GET /home/user/css/yunyou.css
+[ log ] yunsudoc.com/home/user/css/yunyou.css [运行时间：0.137956s][吞吐率：7.25req/s] [内存消耗：1,110.13kb] [文件加载：32]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'user',
+    2 => 'css',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T20:54:59+08:00 ] 127.0.0.1 127.0.0.1 GET /onethink/Public/static/bootstrap/css/onethink.css
+[ log ] yunsudoc.com/onethink/Public/static/bootstrap/css/onethink.css [运行时间：0.072586s][吞吐率：13.78req/s] [内存消耗：847.07kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'onethink',
+    1 => 'Public',
+    2 => 'static',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T20:54:59+08:00 ] 127.0.0.1 127.0.0.1 GET /onethink/Public/static/bootstrap/js/bootstrap.min.js
+[ log ] yunsudoc.com/onethink/Public/static/bootstrap/js/bootstrap.min.js [运行时间：0.051743s][吞吐率：19.33req/s] [内存消耗：847.07kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'onethink',
+    1 => 'Public',
+    2 => 'static',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T20:54:59+08:00 ] 127.0.0.1 127.0.0.1 GET /onethink/Public/static/jquery-2.0.3.min.js
+[ log ] yunsudoc.com/onethink/Public/static/jquery-2.0.3.min.js [运行时间：0.056167s][吞吐率：17.80req/s] [内存消耗：846.95kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'onethink',
+    1 => 'Public',
+    2 => 'static',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T20:54:59+08:00 ] 127.0.0.1 127.0.0.1 GET /onethink/index.php?s=/home/user/verify.html
+[ log ] yunsudoc.com/onethink/index.php?s=/home/user/verify.html [运行时间：0.054168s][吞吐率：18.46req/s] [内存消耗：1,113.75kb] [文件加载：32]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'user',
+    2 => 'verify',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T20:55:04+08:00 ] 127.0.0.1 127.0.0.1 POST /home/user/login
+[ log ] yunsudoc.com/home/user/login [运行时间：0.045647s][吞吐率：21.91req/s] [内存消耗：1,021.84kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method login ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\User.php 9 - 12
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\user\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T20:55:04+08:00 ] 127.0.0.1 127.0.0.1 GET /onethink/Public/static/bootstrap/css/bootstrap-responsive.css
+[ log ] yunsudoc.com/onethink/Public/static/bootstrap/css/bootstrap-responsive.css [运行时间：0.058041s][吞吐率：17.23req/s] [内存消耗：847.06kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'onethink',
+    1 => 'Public',
+    2 => 'static',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T20:55:04+08:00 ] 127.0.0.1 127.0.0.1 GET /home/user/css/yunyou.css
+[ log ] yunsudoc.com/home/user/css/yunyou.css [运行时间：0.081332s][吞吐率：12.30req/s] [内存消耗：1,110.13kb] [文件加载：32]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'user',
+    2 => 'css',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T20:55:04+08:00 ] 127.0.0.1 127.0.0.1 GET /onethink/Public/static/bootstrap/css/bootstrap.css
+[ log ] yunsudoc.com/onethink/Public/static/bootstrap/css/bootstrap.css [运行时间：0.069939s][吞吐率：14.30req/s] [内存消耗：847.13kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'onethink',
+    1 => 'Public',
+    2 => 'static',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T20:55:04+08:00 ] 127.0.0.1 127.0.0.1 GET /onethink/Public/static/bootstrap/css/docs.css
+[ log ] yunsudoc.com/onethink/Public/static/bootstrap/css/docs.css [运行时间：0.063245s][吞吐率：15.81req/s] [内存消耗：847.02kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'onethink',
+    1 => 'Public',
+    2 => 'static',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T20:55:04+08:00 ] 127.0.0.1 127.0.0.1 GET /onethink/Public/static/bootstrap/css/onethink.css
+[ log ] yunsudoc.com/onethink/Public/static/bootstrap/css/onethink.css [运行时间：0.061895s][吞吐率：16.16req/s] [内存消耗：847.06kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'onethink',
+    1 => 'Public',
+    2 => 'static',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T20:55:04+08:00 ] 127.0.0.1 127.0.0.1 GET /home/user/ueditor/third-party/jquery-1.10.2.min.js
+[ log ] yunsudoc.com/home/user/ueditor/third-party/jquery-1.10.2.min.js [运行时间：0.092661s][吞吐率：10.79req/s] [内存消耗：1,110.60kb] [文件加载：32]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'user',
+    2 => 'ueditor',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T20:55:04+08:00 ] 127.0.0.1 127.0.0.1 GET /onethink/Public/static/bootstrap/js/bootstrap.min.js
+[ log ] yunsudoc.com/onethink/Public/static/bootstrap/js/bootstrap.min.js [运行时间：0.044940s][吞吐率：22.25req/s] [内存消耗：847.07kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'onethink',
+    1 => 'Public',
+    2 => 'static',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T20:55:04+08:00 ] 127.0.0.1 127.0.0.1 GET /onethink/Public/static/jquery-2.0.3.min.js
+[ log ] yunsudoc.com/onethink/Public/static/jquery-2.0.3.min.js [运行时间：0.040927s][吞吐率：24.43req/s] [内存消耗：846.93kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'onethink',
+    1 => 'Public',
+    2 => 'static',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T20:55:04+08:00 ] 127.0.0.1 127.0.0.1 GET /onethink/index.php?s=/home/user/verify.html
+[ log ] yunsudoc.com/onethink/index.php?s=/home/user/verify.html [运行时间：0.056623s][吞吐率：17.66req/s] [内存消耗：1,113.75kb] [文件加载：32]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'user',
+    2 => 'verify',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T20:55:12+08:00 ] 127.0.0.1 127.0.0.1 POST /home/user/login
+[ log ] yunsudoc.com/home/user/login [运行时间：0.046614s][吞吐率：21.45req/s] [内存消耗：1,021.87kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method login ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\User.php 9 - 12
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\user\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T20:55:12+08:00 ] 127.0.0.1 127.0.0.1 GET /onethink/Public/static/bootstrap/css/bootstrap.css
+[ log ] yunsudoc.com/onethink/Public/static/bootstrap/css/bootstrap.css [运行时间：0.065702s][吞吐率：15.22req/s] [内存消耗：847.13kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'onethink',
+    1 => 'Public',
+    2 => 'static',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T20:55:12+08:00 ] 127.0.0.1 127.0.0.1 GET /onethink/Public/static/bootstrap/css/docs.css
+[ log ] yunsudoc.com/onethink/Public/static/bootstrap/css/docs.css [运行时间：0.060494s][吞吐率：16.53req/s] [内存消耗：847.02kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'onethink',
+    1 => 'Public',
+    2 => 'static',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T20:55:12+08:00 ] 127.0.0.1 127.0.0.1 GET /onethink/Public/static/bootstrap/css/bootstrap-responsive.css
+[ log ] yunsudoc.com/onethink/Public/static/bootstrap/css/bootstrap-responsive.css [运行时间：0.068502s][吞吐率：14.60req/s] [内存消耗：847.06kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'onethink',
+    1 => 'Public',
+    2 => 'static',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T20:55:12+08:00 ] 127.0.0.1 127.0.0.1 GET /home/user/ueditor/third-party/jquery-1.10.2.min.js
+[ log ] yunsudoc.com/home/user/ueditor/third-party/jquery-1.10.2.min.js [运行时间：0.087398s][吞吐率：11.44req/s] [内存消耗：1,110.60kb] [文件加载：32]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'user',
+    2 => 'ueditor',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T20:55:12+08:00 ] 127.0.0.1 127.0.0.1 GET /home/user/css/yunyou.css
+[ log ] yunsudoc.com/home/user/css/yunyou.css [运行时间：0.098257s][吞吐率：10.18req/s] [内存消耗：1,110.13kb] [文件加载：32]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'user',
+    2 => 'css',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T20:55:12+08:00 ] 127.0.0.1 127.0.0.1 GET /onethink/Public/static/bootstrap/css/onethink.css
+[ log ] yunsudoc.com/onethink/Public/static/bootstrap/css/onethink.css [运行时间：0.067435s][吞吐率：14.83req/s] [内存消耗：847.06kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'onethink',
+    1 => 'Public',
+    2 => 'static',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T20:55:12+08:00 ] 127.0.0.1 127.0.0.1 GET /onethink/Public/static/jquery-2.0.3.min.js
+[ log ] yunsudoc.com/onethink/Public/static/jquery-2.0.3.min.js [运行时间：0.046383s][吞吐率：21.56req/s] [内存消耗：846.93kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'onethink',
+    1 => 'Public',
+    2 => 'static',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T20:55:12+08:00 ] 127.0.0.1 127.0.0.1 GET /onethink/Public/static/bootstrap/js/bootstrap.min.js
+[ log ] yunsudoc.com/onethink/Public/static/bootstrap/js/bootstrap.min.js [运行时间：0.044035s][吞吐率：22.71req/s] [内存消耗：847.07kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'onethink',
+    1 => 'Public',
+    2 => 'static',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T20:55:12+08:00 ] 127.0.0.1 127.0.0.1 GET /onethink/index.php?s=/home/user/verify.html
+[ log ] yunsudoc.com/onethink/index.php?s=/home/user/verify.html [运行时间：0.052674s][吞吐率：18.98req/s] [内存消耗：1,113.75kb] [文件加载：32]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'user',
+    2 => 'verify',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T20:57:00+08:00 ] 127.0.0.1 127.0.0.1 GET /?m=home&c=user&a=login
+[ log ] yunsudoc.com/?m=home&c=user&a=login [运行时间：0.095870s][吞吐率：10.43req/s] [内存消耗：1,807.41kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Index.php 9 - 14
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'yunsu_doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => '',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=yunsu_doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\index\index.html [ array (
+  0 => 'linksList',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `links`  [ RunTime:0.000695s ]
+
+[ 2016-10-11T20:57:13+08:00 ] 127.0.0.1 127.0.0.1 GET /?m=home&c=user&a=login
+[ log ] yunsudoc.com/?m=home&c=user&a=login [运行时间：0.105180s][吞吐率：9.51req/s] [内存消耗：1,807.36kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Index.php 9 - 14
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'yunsu_doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => '',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=yunsu_doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\index\index.html [ array (
+  0 => 'linksList',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `links`  [ RunTime:0.000745s ]
+
+[ 2016-10-11T20:57:26+08:00 ] 127.0.0.1 127.0.0.1 GET /?m=home&c=user&a=login
+[ log ] yunsudoc.com/?m=home&c=user&a=login [运行时间：0.106483s][吞吐率：9.39req/s] [内存消耗：1,807.36kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Index.php 9 - 14
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'yunsu_doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => '',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=yunsu_doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\index\index.html [ array (
+  0 => 'linksList',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `links`  [ RunTime:0.000713s ]
+
+[ 2016-10-11T20:57:29+08:00 ] 127.0.0.1 127.0.0.1 GET /home/user/login
+[ log ] yunsudoc.com/home/user/login [运行时间：0.051837s][吞吐率：19.29req/s] [内存消耗：1,021.44kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method login ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\User.php 9 - 12
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\user\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T20:57:30+08:00 ] 127.0.0.1 127.0.0.1 GET /onethink/Public/static/bootstrap/css/bootstrap.css
+[ log ] yunsudoc.com/onethink/Public/static/bootstrap/css/bootstrap.css [运行时间：0.077599s][吞吐率：12.89req/s] [内存消耗：847.13kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'onethink',
+    1 => 'Public',
+    2 => 'static',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T20:57:30+08:00 ] 127.0.0.1 127.0.0.1 GET /home/user/css/yunyou.css
+[ log ] yunsudoc.com/home/user/css/yunyou.css [运行时间：0.100550s][吞吐率：9.95req/s] [内存消耗：1,110.13kb] [文件加载：32]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'user',
+    2 => 'css',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T20:57:30+08:00 ] 127.0.0.1 127.0.0.1 GET /onethink/Public/static/bootstrap/css/docs.css
+[ log ] yunsudoc.com/onethink/Public/static/bootstrap/css/docs.css [运行时间：0.074312s][吞吐率：13.46req/s] [内存消耗：847.02kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'onethink',
+    1 => 'Public',
+    2 => 'static',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T20:57:30+08:00 ] 127.0.0.1 127.0.0.1 GET /onethink/Public/static/bootstrap/css/onethink.css
+[ log ] yunsudoc.com/onethink/Public/static/bootstrap/css/onethink.css [运行时间：0.064295s][吞吐率：15.55req/s] [内存消耗：847.06kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'onethink',
+    1 => 'Public',
+    2 => 'static',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T20:57:30+08:00 ] 127.0.0.1 127.0.0.1 GET /onethink/Public/static/bootstrap/css/bootstrap-responsive.css
+[ log ] yunsudoc.com/onethink/Public/static/bootstrap/css/bootstrap-responsive.css [运行时间：0.086825s][吞吐率：11.52req/s] [内存消耗：847.06kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'onethink',
+    1 => 'Public',
+    2 => 'static',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T20:57:30+08:00 ] 127.0.0.1 127.0.0.1 GET /home/user/ueditor/third-party/jquery-1.10.2.min.js
+[ log ] yunsudoc.com/home/user/ueditor/third-party/jquery-1.10.2.min.js [运行时间：0.115152s][吞吐率：8.68req/s] [内存消耗：1,110.60kb] [文件加载：32]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'user',
+    2 => 'ueditor',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T20:57:30+08:00 ] 127.0.0.1 127.0.0.1 GET /onethink/Public/static/jquery-2.0.3.min.js
+[ log ] yunsudoc.com/onethink/Public/static/jquery-2.0.3.min.js [运行时间：0.058577s][吞吐率：17.07req/s] [内存消耗：846.93kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'onethink',
+    1 => 'Public',
+    2 => 'static',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T20:57:30+08:00 ] 127.0.0.1 127.0.0.1 GET /onethink/Public/static/bootstrap/js/bootstrap.min.js
+[ log ] yunsudoc.com/onethink/Public/static/bootstrap/js/bootstrap.min.js [运行时间：0.054107s][吞吐率：18.48req/s] [内存消耗：847.07kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'onethink',
+    1 => 'Public',
+    2 => 'static',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T20:57:30+08:00 ] 127.0.0.1 127.0.0.1 GET /onethink/index.php?s=/home/user/verify.html
+[ log ] yunsudoc.com/onethink/index.php?s=/home/user/verify.html [运行时间：0.054646s][吞吐率：18.30req/s] [内存消耗：1,113.75kb] [文件加载：32]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'user',
+    2 => 'verify',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T15:03:41+02:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] yunsudoc.com/favicon.ico [运行时间：0.033094s][吞吐率：30.22req/s] [内存消耗：561.59kb] [文件加载：18]
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+
+[ 2016-10-11T21:03:43+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] yunsudoc.com/ [运行时间：0.103772s][吞吐率：9.64req/s] [内存消耗：1,947.85kb] [文件加载：39]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Index.php 9 - 14
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'yunsu_doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => '',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=yunsu_doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\index\index.html [ array (
+  0 => 'linksList',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `links`  [ RunTime:0.000801s ]
+
+[ 2016-10-11T21:03:51+08:00 ] 127.0.0.1 127.0.0.1 GET /home/user/login
+[ log ] yunsudoc.com/home/user/login [运行时间：0.063923s][吞吐率：15.64req/s] [内存消耗：1,171.60kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method login ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\User.php 9 - 12
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\user\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:03:51+08:00 ] 127.0.0.1 127.0.0.1 GET /onethink/Public/static/bootstrap/css/bootstrap-responsive.css
+[ log ] yunsudoc.com/onethink/Public/static/bootstrap/css/bootstrap-responsive.css [运行时间：0.072648s][吞吐率：13.76req/s] [内存消耗：847.06kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'onethink',
+    1 => 'Public',
+    2 => 'static',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:03:51+08:00 ] 127.0.0.1 127.0.0.1 GET /home/user/ueditor/third-party/jquery-1.10.2.min.js
+[ log ] yunsudoc.com/home/user/ueditor/third-party/jquery-1.10.2.min.js [运行时间：0.086157s][吞吐率：11.61req/s] [内存消耗：1,110.57kb] [文件加载：32]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'user',
+    2 => 'ueditor',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:03:51+08:00 ] 127.0.0.1 127.0.0.1 GET /onethink/Public/static/bootstrap/css/docs.css
+[ log ] yunsudoc.com/onethink/Public/static/bootstrap/css/docs.css [运行时间：0.076451s][吞吐率：13.08req/s] [内存消耗：847.02kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'onethink',
+    1 => 'Public',
+    2 => 'static',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:03:51+08:00 ] 127.0.0.1 127.0.0.1 GET /onethink/Public/static/bootstrap/css/bootstrap.css
+[ log ] yunsudoc.com/onethink/Public/static/bootstrap/css/bootstrap.css [运行时间：0.088832s][吞吐率：11.26req/s] [内存消耗：847.13kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'onethink',
+    1 => 'Public',
+    2 => 'static',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:03:51+08:00 ] 127.0.0.1 127.0.0.1 GET /onethink/Public/static/bootstrap/css/onethink.css
+[ log ] yunsudoc.com/onethink/Public/static/bootstrap/css/onethink.css [运行时间：0.079154s][吞吐率：12.63req/s] [内存消耗：847.06kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'onethink',
+    1 => 'Public',
+    2 => 'static',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:03:51+08:00 ] 127.0.0.1 127.0.0.1 GET /onethink/Public/static/jquery-2.0.3.min.js
+[ log ] yunsudoc.com/onethink/Public/static/jquery-2.0.3.min.js [运行时间：0.069308s][吞吐率：14.43req/s] [内存消耗：846.93kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'onethink',
+    1 => 'Public',
+    2 => 'static',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:03:51+08:00 ] 127.0.0.1 127.0.0.1 GET /onethink/Public/static/bootstrap/js/bootstrap.min.js
+[ log ] yunsudoc.com/onethink/Public/static/bootstrap/js/bootstrap.min.js [运行时间：0.052340s][吞吐率：19.11req/s] [内存消耗：847.07kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'onethink',
+    1 => 'Public',
+    2 => 'static',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:03:51+08:00 ] 127.0.0.1 127.0.0.1 GET /onethink/index.php?s=/home/user/verify.html
+[ log ] yunsudoc.com/onethink/index.php?s=/home/user/verify.html [运行时间：0.058020s][吞吐率：17.24req/s] [内存消耗：1,113.75kb] [文件加载：32]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'user',
+    2 => 'verify',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:04:20+08:00 ] 127.0.0.1 127.0.0.1 GET /home/user/login
+[ log ] yunsudoc.com/home/user/login [运行时间：0.045541s][吞吐率：21.96req/s] [内存消耗：1,021.48kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method login ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\User.php 9 - 12
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\user\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:04:20+08:00 ] 127.0.0.1 127.0.0.1 GET /onethink/Public/static/bootstrap/css/bootstrap.css
+[ log ] yunsudoc.com/onethink/Public/static/bootstrap/css/bootstrap.css [运行时间：0.064264s][吞吐率：15.56req/s] [内存消耗：847.09kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'onethink',
+    1 => 'Public',
+    2 => 'static',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:04:20+08:00 ] 127.0.0.1 127.0.0.1 GET /onethink/Public/static/bootstrap/css/bootstrap-responsive.css
+[ log ] yunsudoc.com/onethink/Public/static/bootstrap/css/bootstrap-responsive.css [运行时间：0.065179s][吞吐率：15.34req/s] [内存消耗：847.13kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'onethink',
+    1 => 'Public',
+    2 => 'static',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:04:20+08:00 ] 127.0.0.1 127.0.0.1 GET /onethink/Public/static/bootstrap/css/docs.css
+[ log ] yunsudoc.com/onethink/Public/static/bootstrap/css/docs.css [运行时间：0.060528s][吞吐率：16.52req/s] [内存消耗：847.02kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'onethink',
+    1 => 'Public',
+    2 => 'static',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:04:20+08:00 ] 127.0.0.1 127.0.0.1 GET /onethink/Public/static/bootstrap/css/onethink.css
+[ log ] yunsudoc.com/onethink/Public/static/bootstrap/css/onethink.css [运行时间：0.057112s][吞吐率：17.51req/s] [内存消耗：847.06kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'onethink',
+    1 => 'Public',
+    2 => 'static',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:04:20+08:00 ] 127.0.0.1 127.0.0.1 GET /home/user/ueditor/third-party/jquery-1.10.2.min.js
+[ log ] yunsudoc.com/home/user/ueditor/third-party/jquery-1.10.2.min.js [运行时间：0.085001s][吞吐率：11.76req/s] [内存消耗：1,110.52kb] [文件加载：32]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'user',
+    2 => 'ueditor',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:04:20+08:00 ] 127.0.0.1 127.0.0.1 GET /onethink/Public/static/jquery-2.0.3.min.js
+[ log ] yunsudoc.com/onethink/Public/static/jquery-2.0.3.min.js [运行时间：0.062554s][吞吐率：15.99req/s] [内存消耗：846.89kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'onethink',
+    1 => 'Public',
+    2 => 'static',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:04:20+08:00 ] 127.0.0.1 127.0.0.1 GET /onethink/Public/static/bootstrap/js/bootstrap.min.js
+[ log ] yunsudoc.com/onethink/Public/static/bootstrap/js/bootstrap.min.js [运行时间：0.041538s][吞吐率：24.07req/s] [内存消耗：847.04kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'onethink',
+    1 => 'Public',
+    2 => 'static',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:04:20+08:00 ] 127.0.0.1 127.0.0.1 GET /onethink/index.php?s=/home/user/verify.html
+[ log ] yunsudoc.com/onethink/index.php?s=/home/user/verify.html [运行时间：0.058939s][吞吐率：16.97req/s] [内存消耗：1,113.79kb] [文件加载：32]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'user',
+    2 => 'verify',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:05:38+08:00 ] 127.0.0.1 127.0.0.1 GET /home/user/login
+[ log ] yunsudoc.com/home/user/login [运行时间：0.055252s][吞吐率：18.10req/s] [内存消耗：1,167.79kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method login ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\User.php 9 - 12
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\user\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:05:39+08:00 ] 127.0.0.1 127.0.0.1 GET /home/user/ueditor/third-party/jquery-1.10.2.min.js
+[ log ] yunsudoc.com/home/user/ueditor/third-party/jquery-1.10.2.min.js [运行时间：0.058985s][吞吐率：16.95req/s] [内存消耗：1,110.52kb] [文件加载：32]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'user',
+    2 => 'ueditor',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:05:39+08:00 ] 127.0.0.1 127.0.0.1 GET /onethink/index.php?s=/home/user/verify.html
+[ log ] yunsudoc.com/onethink/index.php?s=/home/user/verify.html [运行时间：0.056962s][吞吐率：17.56req/s] [内存消耗：1,113.79kb] [文件加载：32]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'user',
+    2 => 'verify',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:11:07+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] yunsudoc.com/ [运行时间：0.108708s][吞吐率：9.20req/s] [内存消耗：1,806.88kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Index.php 9 - 14
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'yunsu_doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => '',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=yunsu_doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\index\index.html [ array (
+  0 => 'linksList',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `links`  [ RunTime:0.000763s ]
+
+[ 2016-10-11T21:11:10+08:00 ] 127.0.0.1 127.0.0.1 GET /home/user/login
+[ log ] yunsudoc.com/home/user/login [运行时间：0.054141s][吞吐率：18.47req/s] [内存消耗：1,167.05kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method login ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\User.php 9 - 12
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\user\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:11:10+08:00 ] 127.0.0.1 127.0.0.1 GET /home/user/ueditor/third-party/jquery-1.10.2.min.js
+[ log ] yunsudoc.com/home/user/ueditor/third-party/jquery-1.10.2.min.js [运行时间：0.060245s][吞吐率：16.60req/s] [内存消耗：1,110.57kb] [文件加载：32]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'user',
+    2 => 'ueditor',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:11:10+08:00 ] 127.0.0.1 127.0.0.1 GET /onethink/index.php?s=/home/user/verify.html
+[ log ] yunsudoc.com/onethink/index.php?s=/home/user/verify.html [运行时间：0.073273s][吞吐率：13.65req/s] [内存消耗：1,113.75kb] [文件加载：32]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'user',
+    2 => 'verify',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:11:59+08:00 ] 127.0.0.1 127.0.0.1 GET /home/user/login
+[ log ] yunsudoc.com/home/user/login [运行时间：0.052869s][吞吐率：18.91req/s] [内存消耗：1,166.27kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method login ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\User.php 9 - 12
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\user\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:11:59+08:00 ] 127.0.0.1 127.0.0.1 GET /home/user/ueditor/third-party/jquery-1.10.2.min.js
+[ log ] yunsudoc.com/home/user/ueditor/third-party/jquery-1.10.2.min.js [运行时间：0.059529s][吞吐率：16.80req/s] [内存消耗：1,110.52kb] [文件加载：32]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'user',
+    2 => 'ueditor',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:13:59+08:00 ] 127.0.0.1 127.0.0.1 GET /home/user/login
+[ log ] yunsudoc.com/home/user/login [运行时间：0.057869s][吞吐率：17.28req/s] [内存消耗：1,021.45kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method login ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\User.php 9 - 12
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\user\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:13:59+08:00 ] 127.0.0.1 127.0.0.1 GET /home/user/ueditor/third-party/jquery-1.10.2.min.js
+[ log ] yunsudoc.com/home/user/ueditor/third-party/jquery-1.10.2.min.js [运行时间：0.065676s][吞吐率：15.23req/s] [内存消耗：1,110.52kb] [文件加载：32]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'user',
+    2 => 'ueditor',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:14:01+08:00 ] 127.0.0.1 127.0.0.1 GET /home/user/
+[ log ] yunsudoc.com/home/user/ [运行时间：0.054464s][吞吐率：18.36req/s] [内存消耗：1,110.02kb] [文件加载：32]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'user',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:14:13+08:00 ] 127.0.0.1 127.0.0.1 GET /home/user/
+[ log ] yunsudoc.com/home/user/ [运行时间：0.064706s][吞吐率：15.45req/s] [内存消耗：1,110.02kb] [文件加载：32]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'user',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T15:17:54+02:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] yunsudoc.com/favicon.ico [运行时间：0.036189s][吞吐率：27.63req/s] [内存消耗：561.59kb] [文件加载：18]
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+
+[ 2016-10-11T21:17:56+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] yunsudoc.com/ [运行时间：0.098510s][吞吐率：10.15req/s] [内存消耗：1,806.91kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Index.php 9 - 14
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'yunsu_doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => '',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=yunsu_doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\index\index.html [ array (
+  0 => 'linksList',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `links`  [ RunTime:0.000682s ]
+
+[ 2016-10-11T21:22:06+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] yunsudoc.com/ [运行时间：0.104222s][吞吐率：9.59req/s] [内存消耗：1,806.95kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Index.php 9 - 14
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'yunsu_doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => '',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=yunsu_doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\index\index.html [ array (
+  0 => 'linksList',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `links`  [ RunTime:0.000689s ]
+
+[ 2016-10-11T21:22:07+08:00 ] 127.0.0.1 127.0.0.1 GET /css/app.png
+[ log ] yunsudoc.com/css/app.png [运行时间：0.043119s][吞吐率：23.19req/s] [内存消耗：846.73kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'css',
+    1 => 'app.png',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:22:55+08:00 ] 127.0.0.1 127.0.0.1 GET /home/user/login
+[ log ] yunsudoc.com/home/user/login [运行时间：0.056858s][吞吐率：17.59req/s] [内存消耗：1,021.44kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method login ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\User.php 9 - 12
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\user\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:22:55+08:00 ] 127.0.0.1 127.0.0.1 GET /home/user/ueditor/third-party/jquery-1.10.2.min.js
+[ log ] yunsudoc.com/home/user/ueditor/third-party/jquery-1.10.2.min.js [运行时间：0.057308s][吞吐率：17.45req/s] [内存消耗：1,110.52kb] [文件加载：32]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'user',
+    2 => 'ueditor',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:24:29+08:00 ] 127.0.0.1 127.0.0.1 GET /home/user/login
+[ log ] yunsudoc.com/home/user/login [运行时间：0.055991s][吞吐率：17.86req/s] [内存消耗：1,021.44kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method login ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\User.php 9 - 12
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\user\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:24:29+08:00 ] 127.0.0.1 127.0.0.1 GET /home/user/ueditor/third-party/jquery-1.10.2.min.js
+[ log ] yunsudoc.com/home/user/ueditor/third-party/jquery-1.10.2.min.js [运行时间：0.065755s][吞吐率：15.21req/s] [内存消耗：1,110.52kb] [文件加载：32]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'user',
+    2 => 'ueditor',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:25:14+08:00 ] 127.0.0.1 127.0.0.1 GET /home/user/login
+[ log ] yunsudoc.com/home/user/login [运行时间：0.056818s][吞吐率：17.60req/s] [内存消耗：1,021.45kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method login ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\User.php 9 - 12
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\user\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:25:14+08:00 ] 127.0.0.1 127.0.0.1 GET /home/user/ueditor/third-party/jquery-1.10.2.min.js
+[ log ] yunsudoc.com/home/user/ueditor/third-party/jquery-1.10.2.min.js [运行时间：0.058007s][吞吐率：17.24req/s] [内存消耗：1,110.52kb] [文件加载：32]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'user',
+    2 => 'ueditor',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:25:20+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php
+[ log ] yunsudoc.com/index.php [运行时间：0.098332s][吞吐率：10.17req/s] [内存消耗：1,806.88kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Index.php 9 - 14
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'yunsu_doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => '',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=yunsu_doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\index\index.html [ array (
+  0 => 'linksList',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `links`  [ RunTime:0.000816s ]
+
+[ 2016-10-11T21:25:20+08:00 ] 127.0.0.1 127.0.0.1 GET /css/app.png
+[ log ] yunsudoc.com/css/app.png [运行时间：0.042268s][吞吐率：23.66req/s] [内存消耗：846.72kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'css',
+    1 => 'app.png',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:26:04+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php
+[ log ] yunsudoc.com/index.php [运行时间：0.099096s][吞吐率：10.09req/s] [内存消耗：1,806.83kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Index.php 9 - 14
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'yunsu_doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => '',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=yunsu_doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\index\index.html [ array (
+  0 => 'linksList',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `links`  [ RunTime:0.000569s ]
+
+[ 2016-10-11T21:26:04+08:00 ] 127.0.0.1 127.0.0.1 GET /css/app.png
+[ log ] yunsudoc.com/css/app.png [运行时间：0.042723s][吞吐率：23.41req/s] [内存消耗：846.70kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'css',
+    1 => 'app.png',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:26:14+08:00 ] 127.0.0.1 127.0.0.1 GET /home/user/login
+[ log ] yunsudoc.com/home/user/login [运行时间：0.047676s][吞吐率：20.97req/s] [内存消耗：1,021.37kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method login ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\User.php 9 - 12
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\user\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:26:14+08:00 ] 127.0.0.1 127.0.0.1 GET /home/user/ueditor/third-party/jquery-1.10.2.min.js
+[ log ] yunsudoc.com/home/user/ueditor/third-party/jquery-1.10.2.min.js [运行时间：0.053157s][吞吐率：18.81req/s] [内存消耗：1,110.57kb] [文件加载：32]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'user',
+    2 => 'ueditor',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:26:22+08:00 ] 127.0.0.1 127.0.0.1 POST /home/user/login
+[ log ] yunsudoc.com/home/user/login [运行时间：0.046920s][吞吐率：21.31req/s] [内存消耗：1,021.75kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method login ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\User.php 9 - 12
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\user\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:26:22+08:00 ] 127.0.0.1 127.0.0.1 GET /home/user/ueditor/third-party/jquery-1.10.2.min.js
+[ log ] yunsudoc.com/home/user/ueditor/third-party/jquery-1.10.2.min.js [运行时间：0.058546s][吞吐率：17.08req/s] [内存消耗：1,110.57kb] [文件加载：32]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'user',
+    2 => 'ueditor',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:28:20+08:00 ] 127.0.0.1 127.0.0.1 GET /js/check.js
+[ log ] yunsudoc.com/js/check.js [运行时间：0.050107s][吞吐率：19.96req/s] [内存消耗：846.75kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'check.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:28:20+08:00 ] 127.0.0.1 127.0.0.1 GET /js/set.js
+[ log ] yunsudoc.com/js/set.js [运行时间：0.050020s][吞吐率：19.99req/s] [内存消耗：846.68kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'set.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T15:30:10+02:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] yunsudoc.com/favicon.ico [运行时间：0.033558s][吞吐率：29.80req/s] [内存消耗：561.59kb] [文件加载：18]
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+
+[ 2016-10-11T21:30:12+08:00 ] 127.0.0.1 127.0.0.1 GET /home/user/login
+[ log ] yunsudoc.com/home/user/login [运行时间：0.055081s][吞吐率：18.16req/s] [内存消耗：1,021.37kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method login ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\User.php 9 - 12
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\user\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:30:13+08:00 ] 127.0.0.1 127.0.0.1 GET /home/user/ueditor/third-party/jquery-1.10.2.min.js
+[ log ] yunsudoc.com/home/user/ueditor/third-party/jquery-1.10.2.min.js [运行时间：0.053214s][吞吐率：18.79req/s] [内存消耗：1,110.57kb] [文件加载：32]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'user',
+    2 => 'ueditor',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:30:15+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php
+[ log ] yunsudoc.com/index.php [运行时间：0.093991s][吞吐率：10.64req/s] [内存消耗：1,806.88kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Index.php 9 - 14
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'yunsu_doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => '',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=yunsu_doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\index\index.html [ array (
+  0 => 'linksList',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `links`  [ RunTime:0.000765s ]
+
+[ 2016-10-11T21:30:15+08:00 ] 127.0.0.1 127.0.0.1 GET /css/app.png
+[ log ] yunsudoc.com/css/app.png [运行时间：0.044440s][吞吐率：22.50req/s] [内存消耗：846.72kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'css',
+    1 => 'app.png',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:30:22+08:00 ] 127.0.0.1 127.0.0.1 GET /js/api.js
+[ log ] yunsudoc.com/js/api.js [运行时间：0.054843s][吞吐率：18.23req/s] [内存消耗：846.80kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'api.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:30:29+08:00 ] 127.0.0.1 127.0.0.1 GET /js/api.js
+[ log ] yunsudoc.com/js/api.js [运行时间：0.042034s][吞吐率：23.79req/s] [内存消耗：846.66kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'api.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T15:39:04+02:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] yunsudoc.com/favicon.ico [运行时间：0.051597s][吞吐率：19.38req/s] [内存消耗：561.63kb] [文件加载：18]
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+
+[ 2016-10-11T21:39:09+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] yunsudoc.com/ [运行时间：0.110605s][吞吐率：9.04req/s] [内存消耗：1,806.92kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Index.php 9 - 14
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'yunsu_doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => '',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=yunsu_doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\index\index.html [ array (
+  0 => 'linksList',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `links`  [ RunTime:0.000816s ]
+
+[ 2016-10-11T21:39:09+08:00 ] 127.0.0.1 127.0.0.1 GET /css/app.png
+[ log ] yunsudoc.com/css/app.png [运行时间：0.047144s][吞吐率：21.21req/s] [内存消耗：846.73kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'css',
+    1 => 'app.png',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T15:39:10+02:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] yunsudoc.com/favicon.ico [运行时间：0.026465s][吞吐率：37.79req/s] [内存消耗：561.63kb] [文件加载：18]
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+
+[ 2016-10-11T21:39:11+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php
+[ log ] yunsudoc.com/index.php [运行时间：0.091424s][吞吐率：10.94req/s] [内存消耗：1,806.91kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Index.php 9 - 14
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'yunsu_doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => '',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=yunsu_doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\index\index.html [ array (
+  0 => 'linksList',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `links`  [ RunTime:0.000921s ]
+
+[ 2016-10-11T21:39:12+08:00 ] 127.0.0.1 127.0.0.1 GET /css/app.png
+[ log ] yunsudoc.com/css/app.png [运行时间：0.041799s][吞吐率：23.92req/s] [内存消耗：846.72kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'css',
+    1 => 'app.png',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:39:21+08:00 ] 127.0.0.1 127.0.0.1 GET /public/main/images/02.jpg
+[ log ] yunsudoc.com/public/main/images/02.jpg [运行时间：0.060994s][吞吐率：16.40req/s] [内存消耗：846.84kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'main',
+    2 => 'images',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:39:21+08:00 ] 127.0.0.1 127.0.0.1 GET /public/main/images/01.png
+[ log ] yunsudoc.com/public/main/images/01.png [运行时间：0.056645s][吞吐率：17.65req/s] [内存消耗：846.84kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'main',
+    2 => 'images',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:39:30+08:00 ] 127.0.0.1 127.0.0.1 GET /css/yunyou.css
+[ log ] yunsudoc.com/css/yunyou.css [运行时间：0.052570s][吞吐率：19.02req/s] [内存消耗：846.79kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'css',
+    1 => 'yunyou.css',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:39:30+08:00 ] 127.0.0.1 127.0.0.1 GET /css/openmenu.png
+[ log ] yunsudoc.com/css/openmenu.png [运行时间：0.060565s][吞吐率：16.51req/s] [内存消耗：846.80kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'css',
+    1 => 'openmenu.png',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:39:30+08:00 ] 127.0.0.1 127.0.0.1 GET /public/main/images/02.jpg
+[ log ] yunsudoc.com/public/main/images/02.jpg [运行时间：0.047314s][吞吐率：21.14req/s] [内存消耗：846.84kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'main',
+    2 => 'images',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:39:30+08:00 ] 127.0.0.1 127.0.0.1 GET /public/main/images/01.png
+[ log ] yunsudoc.com/public/main/images/01.png [运行时间：0.044535s][吞吐率：22.45req/s] [内存消耗：846.84kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'main',
+    2 => 'images',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:39:34+08:00 ] 127.0.0.1 127.0.0.1 GET /css/yunyou.css
+[ log ] yunsudoc.com/css/yunyou.css [运行时间：0.048779s][吞吐率：20.50req/s] [内存消耗：846.80kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'css',
+    1 => 'yunyou.css',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:39:34+08:00 ] 127.0.0.1 127.0.0.1 GET /css/openmenu.png
+[ log ] yunsudoc.com/css/openmenu.png [运行时间：0.042760s][吞吐率：23.39req/s] [内存消耗：846.80kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'css',
+    1 => 'openmenu.png',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:39:34+08:00 ] 127.0.0.1 127.0.0.1 GET /public/main/images/02.jpg
+[ log ] yunsudoc.com/public/main/images/02.jpg [运行时间：0.045343s][吞吐率：22.05req/s] [内存消耗：846.84kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'main',
+    2 => 'images',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:39:34+08:00 ] 127.0.0.1 127.0.0.1 GET /public/main/images/01.png
+[ log ] yunsudoc.com/public/main/images/01.png [运行时间：0.044722s][吞吐率：22.36req/s] [内存消耗：846.84kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'main',
+    2 => 'images',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:39:38+08:00 ] 127.0.0.1 127.0.0.1 GET /css/yunyou.css
+[ log ] yunsudoc.com/css/yunyou.css [运行时间：0.049980s][吞吐率：20.01req/s] [内存消耗：846.81kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'css',
+    1 => 'yunyou.css',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:39:38+08:00 ] 127.0.0.1 127.0.0.1 GET /css/openmenu.png
+[ log ] yunsudoc.com/css/openmenu.png [运行时间：0.047726s][吞吐率：20.95req/s] [内存消耗：846.81kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'css',
+    1 => 'openmenu.png',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:39:38+08:00 ] 127.0.0.1 127.0.0.1 GET /public/main/images/02.jpg
+[ log ] yunsudoc.com/public/main/images/02.jpg [运行时间：0.045392s][吞吐率：22.03req/s] [内存消耗：846.84kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'main',
+    2 => 'images',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:39:38+08:00 ] 127.0.0.1 127.0.0.1 GET /public/main/images/01.png
+[ log ] yunsudoc.com/public/main/images/01.png [运行时间：0.044369s][吞吐率：22.54req/s] [内存消耗：846.84kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'main',
+    2 => 'images',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:40:46+08:00 ] 127.0.0.1 127.0.0.1 GET /public/main/images/02.jpg
+[ log ] yunsudoc.com/public/main/images/02.jpg [运行时间：0.050457s][吞吐率：19.82req/s] [内存消耗：846.84kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'main',
+    2 => 'images',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:40:46+08:00 ] 127.0.0.1 127.0.0.1 GET /css/openmenu.png
+[ log ] yunsudoc.com/css/openmenu.png [运行时间：0.065224s][吞吐率：15.33req/s] [内存消耗：846.80kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'css',
+    1 => 'openmenu.png',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:40:46+08:00 ] 127.0.0.1 127.0.0.1 GET /public/main/images/01.png
+[ log ] yunsudoc.com/public/main/images/01.png [运行时间：0.051281s][吞吐率：19.50req/s] [内存消耗：846.84kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'main',
+    2 => 'images',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:40:50+08:00 ] 127.0.0.1 127.0.0.1 GET /css/openmenu.png
+[ log ] yunsudoc.com/css/openmenu.png [运行时间：0.044470s][吞吐率：22.49req/s] [内存消耗：846.80kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'css',
+    1 => 'openmenu.png',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:40:50+08:00 ] 127.0.0.1 127.0.0.1 GET /public/main/images/02.jpg
+[ log ] yunsudoc.com/public/main/images/02.jpg [运行时间：0.043297s][吞吐率：23.10req/s] [内存消耗：846.84kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'main',
+    2 => 'images',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:40:50+08:00 ] 127.0.0.1 127.0.0.1 GET /public/main/images/01.png
+[ log ] yunsudoc.com/public/main/images/01.png [运行时间：0.043957s][吞吐率：22.75req/s] [内存消耗：846.84kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'main',
+    2 => 'images',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:41:56+08:00 ] 127.0.0.1 127.0.0.1 GET /public/main/images/02.jpg
+[ log ] yunsudoc.com/public/main/images/02.jpg [运行时间：0.057961s][吞吐率：17.25req/s] [内存消耗：846.79kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'main',
+    2 => 'images',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:41:59+08:00 ] 127.0.0.1 127.0.0.1 GET /public/main/images/01.png
+[ log ] yunsudoc.com/public/main/images/01.png [运行时间：0.040167s][吞吐率：24.90req/s] [内存消耗：846.79kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'main',
+    2 => 'images',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:42:01+08:00 ] 127.0.0.1 127.0.0.1 GET /public/main/images/02.jpg
+[ log ] yunsudoc.com/public/main/images/02.jpg [运行时间：0.048953s][吞吐率：20.43req/s] [内存消耗：846.79kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'main',
+    2 => 'images',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:42:01+08:00 ] 127.0.0.1 127.0.0.1 GET /public/main/images/01.png
+[ log ] yunsudoc.com/public/main/images/01.png [运行时间：0.048508s][吞吐率：20.62req/s] [内存消耗：846.79kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'main',
+    2 => 'images',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:42:02+08:00 ] 127.0.0.1 127.0.0.1 GET /index.js.map
+[ log ] yunsudoc.com/index.js.map [运行时间：0.048668s][吞吐率：20.55req/s] [内存消耗：846.70kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index.js.map',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:42:29+08:00 ] 127.0.0.1 127.0.0.1 GET /public/main/images/02.jpg
+[ log ] yunsudoc.com/public/main/images/02.jpg [运行时间：0.041692s][吞吐率：23.99req/s] [内存消耗：846.82kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'main',
+    2 => 'images',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:44:47+08:00 ] 127.0.0.1 127.0.0.1 GET /index.js.map
+[ log ] yunsudoc.com/index.js.map [运行时间：0.050884s][吞吐率：19.65req/s] [内存消耗：846.70kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index.js.map',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:47:22+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php
+[ log ] yunsudoc.com/index.php [运行时间：0.099158s][吞吐率：10.08req/s] [内存消耗：1,806.88kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Index.php 9 - 14
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'yunsu_doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => '',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=yunsu_doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\index\index.html [ array (
+  0 => 'linksList',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `links`  [ RunTime:0.000645s ]
+
+[ 2016-10-11T21:47:23+08:00 ] 127.0.0.1 127.0.0.1 GET /css/app.png
+[ log ] yunsudoc.com/css/app.png [运行时间：0.040948s][吞吐率：24.42req/s] [内存消耗：846.72kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'css',
+    1 => 'app.png',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:47:31+08:00 ] 127.0.0.1 127.0.0.1 GET /static/main/images/add.jpg
+[ log ] yunsudoc.com/static/main/images/add.jpg [运行时间：0.052989s][吞吐率：18.87req/s] [内存消耗：846.90kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'main',
+    2 => 'images',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:47:31+08:00 ] 127.0.0.1 127.0.0.1 GET /static/main/images/del.png
+[ log ] yunsudoc.com/static/main/images/del.png [运行时间：0.063817s][吞吐率：15.67req/s] [内存消耗：846.90kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'main',
+    2 => 'images',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:50:11+08:00 ] 127.0.0.1 127.0.0.1 GET /static/main/images/del.png
+[ log ] yunsudoc.com/static/main/images/del.png [运行时间：0.046164s][吞吐率：21.66req/s] [内存消耗：846.90kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'main',
+    2 => 'images',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:50:33+08:00 ] 127.0.0.1 127.0.0.1 GET /static/main/images/del.png
+[ log ] yunsudoc.com/static/main/images/del.png [运行时间：0.040212s][吞吐率：24.87req/s] [内存消耗：846.90kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'main',
+    2 => 'images',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:52:37+08:00 ] 127.0.0.1 127.0.0.1 GET /static/main/images/del.png
+[ log ] yunsudoc.com/static/main/images/del.png [运行时间：0.048635s][吞吐率：20.56req/s] [内存消耗：846.90kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'main',
+    2 => 'images',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:52:39+08:00 ] 127.0.0.1 127.0.0.1 GET /static/main/images/del.png
+[ log ] yunsudoc.com/static/main/images/del.png [运行时间：0.039040s][吞吐率：25.61req/s] [内存消耗：846.90kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'main',
+    2 => 'images',
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:54:13+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php
+[ log ] yunsudoc.com/index.php [运行时间：0.104925s][吞吐率：9.53req/s] [内存消耗：1,806.95kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\yunsuDoc\application\home\controller\Index.php 9 - 14
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'yunsu_doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => '',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=yunsu_doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\xampp\htdocs\yunsuDoc/application/home\view\index\index.html [ array (
+  0 => 'linksList',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `links`  [ RunTime:0.000638s ]
+
+[ 2016-10-11T21:54:14+08:00 ] 127.0.0.1 127.0.0.1 GET /css/app.png
+[ log ] yunsudoc.com/css/app.png [运行时间：0.044436s][吞吐率：22.50req/s] [内存消耗：846.72kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'css',
+    1 => 'app.png',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:54:31+08:00 ] 127.0.0.1 127.0.0.1 GET /js/check.js
+[ log ] yunsudoc.com/js/check.js [运行时间：0.049320s][吞吐率：20.28req/s] [内存消耗：847.13kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'check.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:54:31+08:00 ] 127.0.0.1 127.0.0.1 GET /js/set.js
+[ log ] yunsudoc.com/js/set.js [运行时间：0.053312s][吞吐率：18.76req/s] [内存消耗：847.09kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'set.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:57:39+08:00 ] 127.0.0.1 127.0.0.1 GET /js/check.js
+[ log ] yunsudoc.com/js/check.js [运行时间：0.057047s][吞吐率：17.53req/s] [内存消耗：846.77kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'check.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T21:57:39+08:00 ] 127.0.0.1 127.0.0.1 GET /js/set.js
+[ log ] yunsudoc.com/js/set.js [运行时间：0.056658s][吞吐率：17.65req/s] [内存消耗：846.70kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'set.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+)
+
+[ 2016-10-11T16:01:38+02:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] yunsudoc.com/favicon.ico [运行时间：0.034092s][吞吐率：29.33req/s] [内存消耗：561.59kb] [文件加载：18]
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+
+[ 2016-10-11T18:09:48+02:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] yunsudoc.com/favicon.ico [运行时间：0.026841s][吞吐率：37.26req/s] [内存消耗：561.63kb] [文件加载：18]
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+
+[ 2016-10-11T18:24:26+02:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] yunsudoc.com/favicon.ico [运行时间：0.048282s][吞吐率：20.71req/s] [内存消耗：561.60kb] [文件加载：18]
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+
+[ 2016-10-11T18:24:34+02:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] yunsudoc.com/favicon.ico [运行时间：0.035684s][吞吐率：28.02req/s] [内存消耗：561.58kb] [文件加载：18]
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+
+[ 2016-10-11T18:24:34+02:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] yunsudoc.com/favicon.ico [运行时间：0.035428s][吞吐率：28.23req/s] [内存消耗：561.56kb] [文件加载：18]
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+
+[ 2016-10-11T18:38:28+02:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] yunsudoc.com/favicon.ico [运行时间：0.034940s][吞吐率：28.62req/s] [内存消耗：561.59kb] [文件加载：18]
+[ info ] [ LANG ] D:\xampp\htdocs\yunsuDoc\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\yunsuDoc\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+

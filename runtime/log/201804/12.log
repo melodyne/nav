@@ -1,0 +1,1016 @@
+[ 2018-04-12T16:57:11+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] nav.com/ [运行时间：0.049000s][吞吐率：20.41req/s] [内存消耗：2,874.45kb] [文件加载：40]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Index.php 9 - 14
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'yunsu_doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => '',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ error ] [0]SQLSTATE[HY000] [1049] Unknown database 'yunsu_doc'[D:\server\apache\2.4\htdocs\nav\thinkphp\library\think\db\Connection.php:277]
+
+[ 2018-04-12T16:57:11+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] nav.com/favicon.ico [运行时间：0.011000s][吞吐率：90.91req/s] [内存消耗：877.52kb] [文件加载：18]
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+
+[ 2018-04-12T17:00:51+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] nav.com/ [运行时间：0.056200s][吞吐率：17.79req/s] [内存消耗：2,873.83kb] [文件加载：40]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Index.php 9 - 14
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'yunsu_doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => '',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ error ] [0]SQLSTATE[HY000] [1049] Unknown database 'yunsu_doc'[D:\server\apache\2.4\htdocs\nav\thinkphp\library\think\db\Connection.php:277]
+
+[ 2018-04-12T17:00:55+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] nav.com/ [运行时间：0.044000s][吞吐率：22.73req/s] [内存消耗：2,873.83kb] [文件加载：40]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Index.php 9 - 14
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'yunsu_doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => '',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ error ] [0]SQLSTATE[HY000] [1049] Unknown database 'yunsu_doc'[D:\server\apache\2.4\htdocs\nav\thinkphp\library\think\db\Connection.php:277]
+
+[ 2018-04-12T17:00:59+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] nav.com/ [运行时间：0.042000s][吞吐率：23.81req/s] [内存消耗：2,873.83kb] [文件加载：40]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Index.php 9 - 14
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'yunsu_doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => '',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ error ] [0]SQLSTATE[HY000] [1049] Unknown database 'yunsu_doc'[D:\server\apache\2.4\htdocs\nav\thinkphp\library\think\db\Connection.php:277]
+
+[ 2018-04-12T17:02:00+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] nav.com/ [运行时间：0.050200s][吞吐率：19.92req/s] [内存消耗：2,872.73kb] [文件加载：39]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Index.php 9 - 14
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => '',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ error ] [42S02]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'doc.links' doesn't exist[D:\server\apache\2.4\htdocs\nav\thinkphp\library\think\db\connector\Mysql.php:58]
+
+[ 2018-04-12T17:02:04+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] nav.com/ [运行时间：0.055800s][吞吐率：17.92req/s] [内存消耗：2,872.73kb] [文件加载：39]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Index.php 9 - 14
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => '',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ error ] [42S02]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'doc.links' doesn't exist[D:\server\apache\2.4\htdocs\nav\thinkphp\library\think\db\connector\Mysql.php:58]
+
+[ 2018-04-12T17:02:26+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] nav.com/ [运行时间：0.033200s][吞吐率：30.12req/s] [内存消耗：2,872.73kb] [文件加载：39]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Index.php 9 - 14
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => '',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ error ] [42S02]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'doc.links' doesn't exist[D:\server\apache\2.4\htdocs\nav\thinkphp\library\think\db\connector\Mysql.php:58]
+
+[ 2018-04-12T17:02:29+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] nav.com/ [运行时间：0.038200s][吞吐率：26.18req/s] [内存消耗：2,872.73kb] [文件加载：39]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Index.php 9 - 14
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => '',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ error ] [42S02]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'doc.links' doesn't exist[D:\server\apache\2.4\htdocs\nav\thinkphp\library\think\db\connector\Mysql.php:58]
+
+[ 2018-04-12T17:02:36+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] nav.com/ [运行时间：0.051200s][吞吐率：19.53req/s] [内存消耗：2,872.74kb] [文件加载：39]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Index.php 9 - 14
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ error ] [42S02]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'doc.doclinks' doesn't exist[D:\server\apache\2.4\htdocs\nav\thinkphp\library\think\db\connector\Mysql.php:58]
+
+[ 2018-04-12T17:02:38+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] nav.com/ [运行时间：0.052200s][吞吐率：19.16req/s] [内存消耗：2,872.74kb] [文件加载：39]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Index.php 9 - 14
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ error ] [42S02]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'doc.doclinks' doesn't exist[D:\server\apache\2.4\htdocs\nav\thinkphp\library\think\db\connector\Mysql.php:58]
+
+[ 2018-04-12T17:02:46+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] nav.com/ [运行时间：0.042200s][吞吐率：23.70req/s] [内存消耗：3,044.73kb] [文件加载：39]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Index.php 9 - 14
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\server\apache\2.4\htdocs\nav/application/home\view\index\index.html [ array (
+  0 => 'linksList',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `doc_links`  [ RunTime:0.001000s ]
+
+[ 2018-04-12T17:02:46+08:00 ] 127.0.0.1 127.0.0.1 GET /css/app.png
+[ log ] nav.com/css/app.png [运行时间：0.015000s][吞吐率：66.67req/s] [内存消耗：1,329.12kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'css',
+    1 => 'app.png',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-12T17:02:50+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php
+[ log ] nav.com/index.php [运行时间：0.047600s][吞吐率：21.01req/s] [内存消耗：2,825.96kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Index.php 9 - 14
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\server\apache\2.4\htdocs\nav/application/home\view\index\index.html [ array (
+  0 => 'linksList',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `doc_links`  [ RunTime:0.000000s ]
+
+[ 2018-04-12T17:02:50+08:00 ] 127.0.0.1 127.0.0.1 GET /css/app.png
+[ log ] nav.com/css/app.png [运行时间：0.016000s][吞吐率：62.50req/s] [内存消耗：1,329.09kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'css',
+    1 => 'app.png',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-12T17:02:52+08:00 ] 127.0.0.1 127.0.0.1 GET /home/project/index
+[ log ] nav.com/home/project/index [运行时间：0.033600s][吞吐率：29.76req/s] [内存消耗：1,811.99kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'project',
+    2 => 'index',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Project.php 9 - 14
+}
+
+[ info ] [ VIEW ] D:\server\apache\2.4\htdocs\nav/application/home\view\project\index.html [ array (
+  0 => 'projects',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-12T17:02:52+08:00 ] 127.0.0.1 127.0.0.1 GET /example/html/demo_iframe.html
+[ log ] nav.com/example/html/demo_iframe.html [运行时间：0.020000s][吞吐率：50.00req/s] [内存消耗：1,329.45kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'example',
+    1 => 'html',
+    2 => 'demo_iframe',
+  ),
+)
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-12T17:02:59+08:00 ] 127.0.0.1 127.0.0.1 GET /js/set.js
+[ log ] nav.com/js/set.js [运行时间：0.015000s][吞吐率：66.67req/s] [内存消耗：1,329.18kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'set.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-12T17:02:59+08:00 ] 127.0.0.1 127.0.0.1 GET /js/check.js
+[ log ] nav.com/js/check.js [运行时间：0.016000s][吞吐率：62.50req/s] [内存消耗：1,329.50kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'check.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-12T17:02:59+08:00 ] 127.0.0.1 127.0.0.1 GET /js/set.js
+[ log ] nav.com/js/set.js [运行时间：0.017000s][吞吐率：58.82req/s] [内存消耗：1,329.18kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'set.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-12T17:03:00+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show?mc=1
+[ log ] nav.com/home/task/show?mc=1 [运行时间：0.049600s][吞吐率：20.16req/s] [内存消耗：3,022.07kb] [文件加载：41]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Task.php 10 - 50
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `doc_authors`  [ RunTime:0.000000s ]
+[ error ] [42S02]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'doc.doc_tasks' doesn't exist[D:\server\apache\2.4\htdocs\nav\thinkphp\library\think\db\connector\Mysql.php:58]
+
+[ 2018-04-12T17:03:16+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php
+[ log ] nav.com/index.php [运行时间：0.054600s][吞吐率：18.32req/s] [内存消耗：2,825.88kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Index.php 9 - 14
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ VIEW ] D:\server\apache\2.4\htdocs\nav/application/home\view\index\index.html [ array (
+  0 => 'linksList',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `doc_links`  [ RunTime:0.001000s ]
+
+[ 2018-04-12T17:03:16+08:00 ] 127.0.0.1 127.0.0.1 GET /css/app.png
+[ log ] nav.com/css/app.png [运行时间：0.016000s][吞吐率：62.50req/s] [内存消耗：1,329.24kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'css',
+    1 => 'app.png',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-12T17:03:20+08:00 ] 127.0.0.1 127.0.0.1 GET /home/project/index
+[ log ] nav.com/home/project/index [运行时间：0.033600s][吞吐率：29.76req/s] [内存消耗：1,593.63kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'project',
+    2 => 'index',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Project.php 9 - 14
+}
+
+[ info ] [ VIEW ] D:\server\apache\2.4\htdocs\nav/application/home\view\project\index.html [ array (
+  0 => 'projects',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-12T17:03:20+08:00 ] 127.0.0.1 127.0.0.1 GET /example/html/demo_iframe.html
+[ log ] nav.com/example/html/demo_iframe.html [运行时间：0.016000s][吞吐率：62.50req/s] [内存消耗：1,329.45kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'example',
+    1 => 'html',
+    2 => 'demo_iframe',
+  ),
+)
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-12T17:03:36+08:00 ] 127.0.0.1 127.0.0.1 GET /js/check.js
+[ log ] nav.com/js/check.js [运行时间：0.015000s][吞吐率：66.67req/s] [内存消耗：1,329.50kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'check.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-12T17:03:36+08:00 ] 127.0.0.1 127.0.0.1 GET /js/set.js
+[ log ] nav.com/js/set.js [运行时间：0.015000s][吞吐率：66.67req/s] [内存消耗：1,329.18kb] [文件加载：25]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'set.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+
+[ 2018-04-12T17:03:37+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show?mc=1
+[ log ] nav.com/home/task/show?mc=1 [运行时间：0.048600s][吞吐率：20.58req/s] [内存消耗：3,022.07kb] [文件加载：41]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Task.php 10 - 50
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `doc_authors`  [ RunTime:0.001000s ]
+[ error ] [42S02]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'doc.doc_tasks' doesn't exist[D:\server\apache\2.4\htdocs\nav\thinkphp\library\think\db\connector\Mysql.php:58]
+
+[ 2018-04-12T17:05:12+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show?mc=1
+[ log ] nav.com/home/task/show?mc=1 [运行时间：0.067200s][吞吐率：14.88req/s] [内存消耗：3,022.07kb] [文件加载：41]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Task.php 10 - 50
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `doc_authors`  [ RunTime:0.001000s ]
+[ error ] [42S02]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'doc.doc_tasks' doesn't exist[D:\server\apache\2.4\htdocs\nav\thinkphp\library\think\db\connector\Mysql.php:58]
+
+[ 2018-04-12T17:33:43+08:00 ] 127.0.0.1 127.0.0.1 GET /home/task/show?mc=1
+[ log ] nav.com/home/task/show?mc=1 [运行时间：0.063000s][吞吐率：15.87req/s] [内存消耗：3,022.07kb] [文件加载：41]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'task',
+    2 => 'show',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ D:\server\apache\2.4\htdocs\nav\application\home\controller\Task.php 10 - 50
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'doc',
+  'username' => 'root',
+  'password' => '123456',
+  'hostport' => '3306',
+  'params' => 
+  array (
+    0 => 100,
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'doc_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'sql_explain' => false,
+)
+[ info ] [ DB ] CONNECT: mysql:dbname=doc;host=localhost;port=3306;charset=utf8
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\server\apache\2.4\htdocs\nav\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'D:\\server\\apache\\2.4\\htdocs\\nav\\runtime\\log\\',
+)
+[ sql ] [ SQL ] SELECT * FROM `doc_authors`  [ RunTime:0.001000s ]
+[ error ] [42S02]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'doc.doc_tasks' doesn't exist[D:\server\apache\2.4\htdocs\nav\thinkphp\library\think\db\connector\Mysql.php:58]
+
